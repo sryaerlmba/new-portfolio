@@ -1,0 +1,33 @@
+{
+  "Programming Languages": [
+    { "name": "JavaScript", "cdn": "https://cdn.simpleicons.org/javascript" },
+    { "name": "Python", "cdn": "https://cdn.simpleicons.org/python" },
+    { "name": "Java" },
+    { "name": "C++", "cdn": "https://cdn.simpleicons.org/cplusplus" },
+    { "name": "PHP", "cdn": "https://cdn.simpleicons.org/php" },
+    { "name": "HTML", "cdn": "https://cdn.simpleicons.org/html5" },
+    { "name": "CSS", "cdn": "https://cdn.simpleicons.org/css3" },
+    { "name": "SQL", "cdn": "https://cdn.simpleicons.org/mysql" }
+  ],
+  "Frameworks & Libraries": [
+    { "name": "Vue.js", "cdn": "https://cdn.simpleicons.org/vuedotjs" },
+    { "name": "Tailwind CSS", "cdn": "https://cdn.simpleicons.org/tailwindcss" },
+    { "name": "Bootstrap", "cdn": "https://cdn.simpleicons.org/bootstrap" },
+    { "name": "CodeIgniter", "cdn": "https://cdn.simpleicons.org/codeigniter" },
+    { "name": "Laravel", "cdn": "https://cdn.simpleicons.org/laravel" },
+    { "name": "Pandas", "cdn": "https://cdn.simpleicons.org/pandas" },
+    { "name": "Scikit-learn", "cdn": "https://cdn.simpleicons.org/scikitlearn" }
+  ],
+  "Software & Tools": [
+    { "name": "Figma", "cdn": "https://cdn.simpleicons.org/figma" },
+    { "name": "Canva", "cdn": "https://cdn.simpleicons.org/canva" },
+    { "name": "Adobe Suite"},
+    { "name": "Power BI" }
+  ],
+  "Skills & Concepts": [
+    { "name": "Object Oriented Programming", "cdn": null },
+    { "name": "Machine Learning", "cdn": null },
+    { "name": "UI/UX Design", "cdn": null },
+    { "name": "Data Analysis", "cdn": null }
+  ]
+}

@@ -1,0 +1,59 @@
+[
+    {
+      "type": "Web Application",
+      "title": "Cyber Jobs Website",
+      "duration": "Dec 2024 - Jan 2025",
+      "techStack": ["CodeIgniter3", "PHP", "MySQL", "Bootstrap"],
+      "description": "Developed as a final project for the Web Programming course. This web-based job portal allows job seekers to find job listings and companies to post job openings.",
+      "keyFeatures": [
+        "User registration and authentication for job seekers and companies",
+        "Job posting and application functionality",
+        "Search and filter capabilities for job listings",
+        "Responsive design for mobile and desktop users",
+        "Admin dashboard for website management"
+      ]
+    },
+    {
+      "type": "Desktop Application",
+      "title": "Wedding Organizer App",
+      "duration": "May 2024 - Jun 2024",
+      "techStack": ["Java", "Swing", "MySQL"],
+      "description": "A desktop application for managing wedding organizer bookings. It features three roles: Admin, Wedding Organizer, and User.",
+      "keyFeatures": [
+        "User role-based access control",
+        "Booking management system",
+        "Wedding package customization",
+        "Client management dashboard",
+        "Financial reporting and analytics"
+      ]
+    },
+    {
+      "type": "Design Project",
+      "title": "Children's Book Design",
+      "duration": "Jun - Jul 2023",
+      "techStack": ["Illustration", "Book Design", "Vector Graphics"],
+      "description": "Designed and illustrated three children's books for Tim Himpaudi Kabupaten Ciamis, targeting children aged 4-7 years.",
+      "keyFeatures": [
+        "Created three visually engaging book covers",
+        "Designed and structured 25+ pages of content",
+        "Illustrated characters and scenes using vector graphics",
+        "Developed age-appropriate visuals for educational content",
+        "Collaborated with educators to align visuals with learning objectives"
+      ]
+    },
+    {
+      "type": "Data Analysis",
+      "title": "Heart Disease Prediction",
+      "duration": "Dec 2023 - Jan 2024",
+      "techStack": ["Python", "Machine Learning", "Data Analysis"],
+      "description": "Analyzed health-related datasets to predict heart disease using machine learning algorithms.",
+      "keyFeatures": [
+        "Data cleaning and preprocessing of medical datasets",
+        "Exploratory data analysis with visualization",
+        "Feature engineering and selection",
+        "Implementation of multiple machine learning models",
+        "Model performance comparison and optimization"
+      ]
+    }
+  ]
+  
