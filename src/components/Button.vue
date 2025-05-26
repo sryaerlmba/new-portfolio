@@ -1,6 +1,6 @@
 <script setup>
 defineProps({
-  link: {
+  page: {
     type: String,
     required: false,
   },
@@ -11,27 +11,32 @@ defineProps({
   font: {
     type: String,
     required: false,
-  }
+  },
+  link: {
+    type: String,
+    required: false,
+  },
 })
 </script>
 
 <template>
   <RouterLink
-    v-if="link"
+    v-if="page"
     v-bind="$attrs"
-    :to="link"
+    :to="page"
     class="flex items-center border bg-sky-800 text-white py-3 px-6 rounded-sm cursor-pointer hover:bg-sky-600 transition duration-300"
   >
     <i v-if="font" :class="font" class="mr-2"></i>
     <span>{{ text }}</span>
   </RouterLink>
 
-  <button
+  <a
     v-else
     v-bind="$attrs"
+    :href="link"
     class="flex items-center border bg-sky-800 text-white py-3 px-6 rounded-sm cursor-pointer hover:bg-sky-600 transition duration-300"
   >
     <i v-if="font" :class="font" class="mr-2"></i>
     <span>{{ text }}</span>
-  </button>
+  </a>
 </template>
