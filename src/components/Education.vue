@@ -53,6 +53,9 @@ const button = {
               <i class="ri-calendar-line text-sky-800 text-1xl"></i>
               <p class="font-semibold text-1xl">09/2022 - present</p>
             </div>
+            <div class="mt-30">
+              <ButtonHover :text="button.education" />
+            </div>
           </div>
           <div>
             <h1 class="font-semibold text-2xl">System and Information Technology</h1>
@@ -66,9 +69,7 @@ const button = {
             </p>
           </div>
         </div>
-        <div class="mt-10">
-          <ButtonHover :text="button.education" />
-        </div>
+
       </div>
     </div>
 

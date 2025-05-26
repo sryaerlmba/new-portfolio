@@ -6,6 +6,7 @@ import { onMounted, onUnmounted, ref } from 'vue'
 
 const showButton = ref(false)
 
+// fungsi untuk mengecek posisi scroll
 const checkScroll = () => {
   showButton.value = window.scrollY > 300
 }
@@ -16,11 +17,14 @@ const scrollToTop = () => {
     behavior: 'smooth',
   })
 }
+// end function
 
+// kasih event listener saat komponen dimount
 onMounted(() => {
   window.addEventListener('scroll', checkScroll)
 })
 
+// buang event listener saat kkomponen di unmount
 onUnmounted(() => {
   window.removeEventListener('scroll', checkScroll)
 })
