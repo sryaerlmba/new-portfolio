@@ -26,17 +26,17 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="my-10 container mx-auto px-5">
+  <div class="my-10 container mx-auto px-5 min-h-screen">
     <div>
-      <h1 class="font-bold text-4xl text-sky-800">Experience</h1>
-      <p class="mt-5 font-semibold">
+      <h1 class="font-bold text-4xl text-sky-800" data-aos="fade-right">Experience</h1>
+      <p class="mt-5 font-semibold" data-aos="fade-right">
         My professional journey includes roles in web development, graphic design, and media
         management. Each position has helped me develop a diverse skill set and adaptability across
         different projects and environments.
       </p>
     </div>
 
-    <div class="mt-5 flex flex-col gap-5">
+    <div class="mt-5 flex flex-col gap-5" data-aos="fade-up">
       <ExperienceDetail v-for="(item, index) in dataExperience" :key="index" v-bind="item" />
     </div>
 

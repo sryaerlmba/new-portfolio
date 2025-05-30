@@ -26,6 +26,7 @@ onMounted(async () => {
             :text="item.textButton"
             :data-aos="index % 2 === 0 ? 'fade-up' : 'fade-down'"
             :key="index"
+            :to="item.to"
           />
         </div>
       </div>

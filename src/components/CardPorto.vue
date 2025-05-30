@@ -18,6 +18,10 @@ defineProps({
   font: {
     type: String,
     required: false,
+  },
+  to: {
+    type: String,
+    required: false,
   }
 
 })
@@ -34,6 +38,6 @@ defineProps({
       <h1 class="font-bold text-lg mb-2 text-center">{{ title }}</h1>
       <p class="mb-4 text-center">{{ desc }}</p>
     </div>
-    <ButtonHover class="w-full text-center" :text="text" />
+    <ButtonHover class="w-full text-center" :text="text" :page="to" />
   </div>
 </template>
