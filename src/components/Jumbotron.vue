@@ -52,14 +52,27 @@ const buttonHover = {
             </div>
           </div>
         </div>
-        <div class="hidden md:block" data-aos="fade-down" data-aos-duration="800">
-          <div class="flex justify-center items-center">
-            <div class="overflow-hidden border-4 w-88 h-88 rounded-full text-sky-800 bg-sky-100">
-              <img src="/img/surya.png" alt="" class="h-full mx-auto mt-5" />
+        <Transition>
+          <div class="hidden md:block" >
+            <div class="flex justify-center items-center">
+              <div class="overflow-hidden border-4 w-88 h-88 rounded-full text-sky-800 bg-sky-100">
+                <img src="/img/surya.png" alt="" class="h-full mx-auto mt-5" />
+              </div>
             </div>
           </div>
+        </Transition>
         </div>
-      </div>
     </div>
   </section>
 </template>
+
+<style scoped>
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}</style>

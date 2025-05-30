@@ -9,6 +9,15 @@
         "Currently building a CMS using Laravel 12 and Inertia.js with Vue.js",
         "Currently Revamped the bririns website UI using Codeigniter 4",
         "Built a big data dashboard for PT BRI Life clients using Chart.js"
+      ],
+      "techStack": [
+        "Laravel",
+        "Vue.js",
+        "Inertia.js",
+        "Codeigniter",
+        "Chart.js",
+        "PHP",
+        "JavaScript"
       ]
     },
     {
@@ -20,7 +29,8 @@
         "Developed three engaging and visually appealing books tailored for children aged 4-7 years.",
         "Designed three book covers and structured 25+ pages.",
         "Illustrated and brought characters to life through the creation of vector graphics, enhancing the overall visual appeal and storytelling experience for the target audience."
-      ]
+      ],
+      "techStack": ["Adobe Illustrator", "Adobe Photoshop"]
     },
     {
       "title": "Graphic Designer",
@@ -31,21 +41,23 @@
         "Created 15+ graphic designs, including banner designs, brochures, posters, logos",
         "Managed 50+ printing projects, ensuring high-quality output",
         "Successfully completed various projects and met deadlines"
-      ]
+      ],
+      "techStack": ["Adobe Illustrator", "Adobe Photoshop"]
     }
   ],
   "organizationExperience": [
     {
-    "title": "Staff of the Media and Information Division",
-    "type": "Organization",
-    "organization": "Badan Eksekutif Mahasiswa",
-    "period": "September 2022 - January 2025",
-    "details": [
+      "title": "Staff of the Media and Information Division",
+      "type": "Organization",
+      "organization": "Badan Eksekutif Mahasiswa",
+      "period": "September 2022 - January 2025",
+      "details": [
         "Effectively communicated 50+ updates to BEM Cyber University stakeholders via both online and offline media channels.",
         "Published comprehensive reports on BEM Cyber University studies, activity publications, and documentation.",
         "Facilitated and strengthen BEM Cyber University's connections with external entities by actively managing social media platforms.",
         "Designed visually appealing and cohesive Instagram feeds, maintaining a consistent and engaging online presence."
-    ]
+      ],
+      "techStack": ["Figma", "Adobe Illustrator", "Adobe Photoshop", "Canva"]
     },
     {
       "title": "Staff of the Media and Marketing Division",
@@ -57,7 +69,8 @@
         "Designed 30+ visually compelling graphics for Instagram, increasing engagement.",
         "Crafted captivating and informative content for Decompe 3.0's Instagram, driving user interaction and website traffic.",
         "Conceptualized 10+ merchandise designs, boosting brand awareness and sales."
-      ]
+      ],
+      "techStack": ["Figma"]
     }
   ]
 }

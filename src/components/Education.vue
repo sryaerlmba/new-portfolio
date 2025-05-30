@@ -29,7 +29,6 @@ const button = {
   education: 'View Education Details',
   certifications: 'View All Certifications',
 }
-
 </script>
 
 <template>
@@ -41,7 +40,7 @@ const button = {
       Education
     </h1>
     <hr class="my-5 text-sky-800 max-w-[90vw] mx-auto" />
-    <div class="p-5 sm:p-0">
+    <div class="px-5 sm:p-0">
       <div class="border p-5 border-gray-400 rounded-1xl shadow-lg" data-aos="fade-left">
         <div class="flex sm:gap-20 flex-col sm:flex-row">
           <div class="flex flex-col gap-2 my-2 sm:my-0">
@@ -53,29 +52,56 @@ const button = {
               <i class="ri-calendar-line text-sky-800 text-1xl"></i>
               <p class="font-semibold text-1xl">09/2022 - present</p>
             </div>
-            <div class="mt-30">
-              <ButtonHover :text="button.education" />
-            </div>
           </div>
           <div>
             <h1 class="font-semibold text-2xl">System and Information Technology</h1>
             <p class="font-semibold text-sky-800 mt-1">
               Cyber University, South Jakarta, Indonesia
             </p>
-            <Badge :text="badges.education.label" class="mt-3"/>
+            <Badge :text="badges.education.label" class="mt-3" />
             <p class="mt-3 text-gray-600">
-              Recipient of the BRI
-               Institute Cemerlang Scholarship (Minimum GPA: 3.00)
+              Recipient of the BRI Institute Cemerlang Scholarship (Minimum GPA: 3.00)
             </p>
           </div>
         </div>
-
+        <div class="mt-10 sm:w-60">
+          <ButtonHover :text="button.education" />
+        </div>
       </div>
     </div>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-1 sm:mt-5 gap-5 sm:gap-5 sm:grid-cols-1 place-items-center\" data-aos="fade-up">
+     <!-- Key Course  -->
+     <div class="px-5 sm:p-0 h-full md:mt-5 my-5 ">
+      <div id="awards" class="border p-5 border-gray-400 flex h-full flex-col shadow-lg">
+        <div class="flex items-center gap-2">
+          <i class="ri-book-line text-2xl"></i>
+          <p class="text-2xl font-semibold">Key Courses</p>
+        </div>
+        <div class="mt-3">
+          <h1 class="font-semibold text-gray-800">IT Courses:</h1>
+          <p class="text-gray-600">
+            Programming Algorithms, Information Systems Analysis, Information and Communication
+            Technology, Discrete Mathematics, Cyber Security, Statistics (Python), Object Oriented
+            Programming (Java), Databases (SQL), Digital Marketing, English, Privacy and Data
+            Protection, Organization and Computer Architecture, Web Programming (PHP), Financial
+            Technology, Research Methodology, Management Information System, Risk Management.
+          </p>
+          <h1 class="font-semibold text-gray-800 mt-3">Banking Course:</h1>
+          <p class="text-gray-600">
+            Accounting, Microfinance, Business Mathematics, Basic Banking.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="grid md:grid-cols-2 mt-1 sm:mt-5 gap-5 sm:gap-5 sm:grid-cols-1 place-items-center\"
+      data-aos="fade-up"
+    >
       <div class="px-5 sm:p-0 h-full">
-        <div class="border p-5 border-gray-400 rounded-1xl flex h-full flex-col justify-between shadow-lg">
+        <div
+          class="border p-5 border-gray-400 rounded-1xl flex h-full flex-col justify-between shadow-lg"
+        >
           <div>
             <div class="flex gap-2 mb-5 items-center">
               <i class="ri-award-line text-2xl"></i>
@@ -108,30 +134,6 @@ const button = {
             <p class="mt-3">
               Creating an Abstact with the theme "Driving Digital Transformation Technology and
               Artificial Intelligence for the future".
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Key Course  -->
-      <div class="px-5 sm:p-0 h-full  ">
-        <div id="awards" class="border p-5 border-gray-400 flex h-full flex-col shadow-lg">
-          <div class="flex items-center gap-2">
-            <i class="ri-book-line text-2xl"></i>
-            <p class="text-2xl font-semibold">Key Courses</p>
-          </div>
-          <div class="mt-3">
-            <h1 class="font-semibold text-gray-800">IT Courses:</h1>
-            <p class="text-gray-600">
-              Programming Algorithms, Information Systems Analysis, Information and Communication
-              Technology, Discrete Mathematics, Cyber Security, Statistics (Python), Object Oriented
-              Programming (Java), Databases (SQL), Digital Marketing, English, Privacy and Data
-              Protection, Organization and Computer Architecture, Web Programming (PHP), Financial
-              Technology, Research Methodology, Management Information System, Risk Management.
-            </p>
-            <h1 class="font-semibold text-gray-800 mt-3">Banking Course:</h1>
-            <p class="text-gray-600">
-              Accounting, Microfinance, Business Mathematics, Basic Banking.
             </p>
           </div>
         </div>
