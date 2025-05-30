@@ -6,16 +6,18 @@ import Portfolio from '@/components/Portfolio.vue'
 import Projects from '@/components/Projects.vue'
 import Skills from '@/components/Skills.vue'
 
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
 
-const jumbotron = {
-  role: 'Web Developer | Graphic Designer',
-  desc: 'An enthusiastic undergraduate student majoring in System and Information Technology with a strong foundation in web development and design.',
-}
+const profile = ref([])
+onMounted(async ()=>{
+  const response = await fetch("data/profile.json")
+  profile.value = await response.json()
+  console.log(profile.value, "ini profile")
+})
 </script>
 
 <template>
-  <Jumbotron :role="jumbotron.role" :desc="jumbotron.desc" />
+  <Jumbotron v-bind="profile" />
   <Portfolio />
   <div class="md:px-18">
     <Experience />
@@ -26,3 +28,4 @@ const jumbotron = {
 </template>
 
 <style scoped></style>
+

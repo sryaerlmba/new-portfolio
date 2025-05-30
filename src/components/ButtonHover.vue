@@ -10,7 +10,7 @@ defineProps({
     type: String,
     required: false,
   },
-  font: {
+  icon: {
     type: String,
     required: false,
   },
@@ -29,7 +29,7 @@ defineProps({
     :to="page"
     class="flex border py-3 px-6 hover:bg-sky-800 rounded-sm hover:text-white cursor-pointer transition ease-in-out duration-300 items-center justify-center"
   >
-    <i :class="[font, `mr-2`]"></i>
+    <i :class="[icon, `mr-2`]"></i>
     <span>{{ text }}</span>
   </RouterLink>
   <a
@@ -39,7 +39,7 @@ defineProps({
     :href="link"
     class="flex border py-2 px-6 hover:bg-sky-800 rounded-sm hover:text-white cursor-pointer transition ease-in-out duration-300 items-center justify-center"
   >
-    <i :class="[font, `mr-2`]"></i>
+    <i :class="[icon, `mr-2`]"></i>
     <span>{{ text }}</span>
   </a>
 </template>

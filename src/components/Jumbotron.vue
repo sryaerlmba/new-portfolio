@@ -16,19 +16,15 @@ defineProps({
     type: String,
     required: true,
   },
+  email: {
+    type: String,
+    required: true,
+  },
+  github: {
+    type: String,
+    required: true,
+  },
 })
-
-const button = {
-  text: 'Contact Me',
-  font: 'ri-mail-line',
-  link: 'mailto:suryaerlamba3@gmail.com',
-}
-
-const buttonHover = {
-  text: 'Github Profile',
-  font: 'ri-github-line',
-  link: 'https://github.com/sryaerlmba',
-}
 </script>
 
 <template>
@@ -44,11 +40,11 @@ const buttonHover = {
             <span class="text-black">Hi, I'm</span> {{ name }}
           </h1>
           <p class="text-2xl mt-5 font-semibold text-gray-700">{{ role }}</p>
-          <p class="mt-5 font-medium text-lg">{{ desc }}.</p>
+          <p class="mt-5 font-medium text-lg">{{ desc }}</p>
           <div class="mt-5 space-x-5">
             <div class="flex space-x-3">
-              <Button :text="button.text" :font="button.font" :link="button.link"></Button>
-              <ButtonHover :text="buttonHover.text" :font="buttonHover.font" :link="buttonHover.link" ></ButtonHover>
+              <Button text="Contact Me" icon="ri-mail-line" :link="email"></Button>
+              <ButtonHover text="Github Profile" icon="ri-github-line" :link="github" ></ButtonHover>
             </div>
           </div>
         </div>
