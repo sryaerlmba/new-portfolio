@@ -65,13 +65,13 @@ const button = {
           </div>
         </div>
         <div class="mt-10 sm:w-60">
-          <ButtonHover :text="button.education" />
+          <ButtonHover :text="button.education" page="education" />
         </div>
       </div>
     </div>
 
-     <!-- Key Course  -->
-     <div class="px-5 sm:p-0 h-full md:mt-5 my-5 ">
+    <!-- Key Course  -->
+    <div class="px-5 sm:p-0 h-full md:mt-5 my-5">
       <div id="awards" class="border p-5 border-gray-400 flex h-full flex-col shadow-lg">
         <div class="flex items-center gap-2">
           <i class="ri-book-line text-2xl"></i>
@@ -116,7 +116,7 @@ const button = {
             </div>
           </div>
           <div class="mt-5">
-            <ButtonHover :text="button.certifications" />
+            <ButtonHover :text="button.certifications" page="education"/>
           </div>
         </div>
       </div>

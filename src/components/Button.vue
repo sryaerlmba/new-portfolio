@@ -23,7 +23,7 @@ defineProps({
   <RouterLink
     v-if="page"
     v-bind="$attrs"
-    :to="page"
+    :to="{name:page}"
     class="flex items-center border bg-sky-800 text-white py-3 px-6 rounded-sm cursor-pointer hover:bg-sky-600 transition duration-300"
   >
     <i v-if="icon" :class="icon" class="mr-2"></i>

@@ -1,32 +1,77 @@
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue'
 
-const isOpen = ref(false);
+const isOpen = ref(false)
+const navref = ref(null)
 
-const toggleMenu = () => {
-  isOpen.value = !isOpen.value;
-};
+const handleClickOutside = (event) => {
+  if (navref.value && !navref.value.contains(event.target)) {
+    isOpen.value = false
+  }
+}
 
-const active = "text-sky-800"
+const toggleMenu = (event) => {
+  event.stopPropagation()
+  isOpen.value = !isOpen.value
+}
 
+const active = 'text-sky-800'
+
+onMounted(() => {
+  window.addEventListener('click', handleClickOutside)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('click', handleClickOutside)
+})
 </script>
 
 <template>
-    <nav class="bg-white shadow-xl">
-      <div class="mx-auto container px-2 sm:px-6 lg:px-8">
-        <div class="relative flex h-16 items-center justify-between">
+  <nav class="bg-white shadow-xl fixed left-0 right-0 top-0 z-50 px-5 sm:px-0" ref="navref">
+    <div class="mx-auto container px-2 sm:px-6 lg:px-8">
+      <div class="relative flex h-16 items-center justify-between">
         <div class="flex items-center">
           <span class="text-sky-800 font-bold text-2xl">Surya.</span>
         </div>
 
         <div class="hidden sm:block">
           <div class="flex space-x-1">
-            <RouterLink :exact-active-class="active" :to="{ name:'home'}" class="rounded-md px-3 py-2 text-lg font-medium hover:text-sky-800">Home</RouterLink>
-            <RouterLink :exact-active-class="active" :to="{ name:'experience' }" class="rounded-md px-3 py-2 text-lg font-medium text-gray-800 hover:text-sky-800">Experience</RouterLink>
-            <RouterLink :exact-active-class="active" :to="{name:'education'}" class="rounded-md px-3 py-2 text-lg font-medium text-gray-800 hover:text-sky-800">Education</RouterLink>
-            <RouterLink :exact-active-class="active" :to="{name:'projects'}" class="rounded-md px-3 py-2 text-lg font-medium text-gray-800 hover:text-sky-800">Projects</RouterLink>
-            <RouterLink :exact-active-class="active" :to="{name:'skills'}" class="rounded-md px-3 py-2 text-lg font-medium text-gray-800 hover:text-sky-800">Skills</RouterLink>
-            <RouterLink :exact-active-class="active" :to="{name:'contact'}" class="rounded-md px-3 py-2 text-lg font-medium text-gray-800 hover:text-sky-800">Contact</RouterLink>
+            <RouterLink
+              :exact-active-class="active"
+              :to="{ name: 'home' }"
+              class="rounded-md px-3 py-2 text-lg font-medium hover:text-sky-800"
+              >Home</RouterLink
+            >
+            <RouterLink
+              :exact-active-class="active"
+              :to="{ name: 'experience' }"
+              class="rounded-md px-3 py-2 text-lg font-medium text-gray-800 hover:text-sky-800"
+              >Experience</RouterLink
+            >
+            <RouterLink
+              :exact-active-class="active"
+              :to="{ name: 'education' }"
+              class="rounded-md px-3 py-2 text-lg font-medium text-gray-800 hover:text-sky-800"
+              >Education</RouterLink
+            >
+            <RouterLink
+              :exact-active-class="active"
+              :to="{ name: 'projects' }"
+              class="rounded-md px-3 py-2 text-lg font-medium text-gray-800 hover:text-sky-800"
+              >Projects</RouterLink
+            >
+            <!-- <RouterLink
+              :exact-active-class="active"
+              :to="{ name: 'skills' }"
+              class="rounded-md px-3 py-2 text-lg font-medium text-gray-800 hover:text-sky-800"
+              >Skills</RouterLink
+            > -->
+            <RouterLink
+              :exact-active-class="active"
+              :to="{ name: 'contact' }"
+              class="rounded-md px-3 py-2 text-lg font-medium text-gray-800 hover:text-sky-800"
+              >Contact</RouterLink
+            >
           </div>
         </div>
 
@@ -37,7 +82,7 @@ const active = "text-sky-800"
             aria-controls="mobile-menu"
             @click="toggleMenu"
             :aria-expanded="isOpen"
-            >
+          >
             <span class="sr-only">Open main menu</span>
             <svg
               v-if="!isOpen"
@@ -48,8 +93,12 @@ const active = "text-sky-800"
               stroke-width="1.5"
               stroke="currentColor"
               aria-hidden="true"
-              >
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
             </svg>
             <svg
               v-else
@@ -70,12 +119,42 @@ const active = "text-sky-800"
 
     <div v-if="isOpen" class="sm:hidden" id="mobile-menu">
       <div class="space-y-1 px-2 pt-2 pb-3">
-        <RouterLink :exact-active-class="active" :to="{ name:'home'}" class="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-sky-800">Home</RouterLink>
-        <RouterLink :exact-active-class="active" :to="{ name:'experience' }" class="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-sky-800">Experience</RouterLink>
-        <RouterLink :exact-active-class="active" :to="{name:'education'}" class="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-sky-800">Education</RouterLink>
-        <RouterLink :exact-active-class="active" :to="{name:'projects'}" class="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-sky-800">Projects</RouterLink>
-        <RouterLink :exact-active-class="active" :to="{name:'skills'}" class="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-sky-800">Skills</RouterLink>
-        <RouterLink :exact-active-class="active" :to="{name:'contact'}" class="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-sky-800">Contact</RouterLink>
+        <RouterLink
+          :exact-active-class="active"
+          :to="{ name: 'home' }"
+          class="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-sky-800"
+          >Home</RouterLink
+        >
+        <RouterLink
+          :exact-active-class="active"
+          :to="{ name: 'experience' }"
+          class="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-sky-800"
+          >Experience</RouterLink
+        >
+        <RouterLink
+          :exact-active-class="active"
+          :to="{ name: 'education' }"
+          class="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-sky-800"
+          >Education</RouterLink
+        >
+        <RouterLink
+          :exact-active-class="active"
+          :to="{ name: 'projects' }"
+          class="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-sky-800"
+          >Projects</RouterLink
+        >
+        <!-- <RouterLink
+          :exact-active-class="active"
+          :to="{ name: 'skills' }"
+          class="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-sky-800"
+          >Skills</RouterLink
+        > -->
+        <RouterLink
+          :exact-active-class="active"
+          :to="{ name: 'contact' }"
+          class="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-sky-800"
+          >Contact</RouterLink
+        >
       </div>
     </div>
   </nav>
@@ -85,5 +164,4 @@ const active = "text-sky-800"
 .link-exact-active {
   color: #0070f3;
 }
-
 </style>

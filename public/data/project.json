@@ -1,59 +1,162 @@
-[
-    {
-      "type": "Web Application",
-      "title": "Cyber Jobs Website",
-      "duration": "Dec 2024 - Jan 2025",
-      "techStack": ["CodeIgniter3", "PHP", "MySQL", "Bootstrap"],
-      "description": "Developed as a final project for the Web Programming course. This web-based job portal allows job seekers to find job listings and companies to post job openings.",
-      "keyFeatures": [
-        "User registration and authentication for job seekers and companies",
-        "Job posting and application functionality",
-        "Search and filter capabilities for job listings",
-        "Responsive design for mobile and desktop users",
-        "Admin dashboard for website management"
-      ]
-    },
-    {
-      "type": "Desktop Application",
-      "title": "Wedding Organizer App",
-      "duration": "May 2024 - Jun 2024",
-      "techStack": ["Java", "Swing", "MySQL"],
-      "description": "A desktop application for managing wedding organizer bookings. It features three roles: Admin, Wedding Organizer, and User.",
-      "keyFeatures": [
-        "User role-based access control",
-        "Booking management system",
-        "Wedding package customization",
-        "Client management dashboard",
-        "Financial reporting and analytics"
-      ]
-    },
-    {
-      "type": "Design Project",
-      "title": "Children's Book Design",
-      "duration": "Jun - Jul 2023",
-      "techStack": ["Illustration", "Book Design", "Vector Graphics"],
-      "description": "Designed and illustrated three children's books for Tim Himpaudi Kabupaten Ciamis, targeting children aged 4-7 years.",
-      "keyFeatures": [
-        "Created three visually engaging book covers",
-        "Designed and structured 25+ pages of content",
-        "Illustrated characters and scenes using vector graphics",
-        "Developed age-appropriate visuals for educational content",
-        "Collaborated with educators to align visuals with learning objectives"
-      ]
-    },
-    {
-      "type": "Data Analysis",
-      "title": "Heart Disease Prediction",
-      "duration": "Dec 2023 - Jan 2024",
-      "techStack": ["Python", "Machine Learning", "Data Analysis"],
-      "description": "Analyzed health-related datasets to predict heart disease using machine learning algorithms.",
-      "keyFeatures": [
-        "Data cleaning and preprocessing of medical datasets",
-        "Exploratory data analysis with visualization",
-        "Feature engineering and selection",
-        "Implementation of multiple machine learning models",
-        "Model performance comparison and optimization"
-      ]
-    }
-  ]
-  
+{
+  "projects": {
+    "technical": [
+      {
+        "title": "Cyber Jobs Web Using CodeIgniter",
+        "type": "Web Application",
+        "duration": "Dec 2024 - Jan 2025",
+        "techStack": ["PHP", "CodeIgniter 3", "MySQL", "Bootstrap"],
+        "description": "Final project for the Web Programming course. Developed a job portal website where users can register, post, and apply for jobs.",
+        "keyFeatures": [
+          "User registration and authentication for job seekers and companies",
+          "Job posting and application functionality",
+          "Search and filter job listings",
+          "Admin dashboard for site management"
+        ]
+      },
+      {
+        "title": "Heart Disease Prediction",
+        "type": "Data Science",
+        "duration": "Dec 2023 - Jan 2024",
+        "techStack": ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
+        "description": "Final project for the Statistics course. Predicted heart disease using machine learning models based on several health indicators.",
+        "keyFeatures": [
+          "Data cleaning and preprocessing",
+          "Exploratory data analysis with visualizations",
+          "Feature selection and engineering",
+          "Implemented multiple ML models (e.g., Logistic Regression, Decision Tree)"
+        ]
+      },
+      {
+        "title": "Machine Learning Portfolio",
+        "type": "Machine Learning",
+        "duration": "Jan 2024",
+        "techStack": ["Python", "TensorFlow", "Keras", "NumPy"],
+        "description": "Final project from Dicoding's ML course. Built a model to classify hand gestures (rock, paper, scissors) using deep learning.",
+        "keyFeatures": [
+          "Built a CNN model for image classification",
+          "Used TensorFlow and Keras for model training",
+          "Processed and augmented image datasets",
+          "Achieved high accuracy in gesture recognition"
+        ]
+      },
+      {
+        "title": "Library Management System",
+        "type": "Desktop Application",
+        "duration": "May 2023 - Jun 2023",
+        "techStack": ["C++"],
+        "description": "Final project for the Programming Algorithms course. Created a CLI-based library management app to manage books, members, and loans.",
+        "keyFeatures": [
+          "Book and member registration",
+          "Borrow and return system",
+          "CLI with menu navigation"
+        ]
+      },
+      {
+        "title": "Wedding Organizer Java App using Swing Framework",
+        "type": "Desktop Application",
+        "duration": "May 2024 - Jun 2024",
+        "techStack": ["Java", "Swing", "MySQL"],
+        "description": "Final project for the OOP course. A desktop app with admin, organizer, and user roles to manage wedding packages, bookings, and finances.",
+        "keyFeatures": [
+          "Role-based login system",
+          "Wedding package customization",
+          "Booking management system"
+        ]
+      }
+    ],
+    "design": [
+      {
+        "title": "BEM Cyber University Social Media Design",
+        "type": "Graphic Design",
+        "duration": "Multiple Occasions (2023 - 2024)",
+        "techStack": ["Photoshop", "Canva", "Illustrator"],
+        "description": "Designed various social media content for BEM Cyber University to boost engagement and promote events.",
+        "keyFeatures": [
+          "Instagram feed & story designs",
+          "Event branding graphics",
+          "Consistent design language across platforms",
+          "Optimized assets for various resolutions"
+        ]
+      },
+      {
+        "title": "Decompe 3.0 Social Media Design",
+        "type": "Graphic Design",
+        "duration": "2023",
+        "techStack": ["Photoshop", "Illustrator"],
+        "description": "Created digital assets and campaign visuals for Decompe 3.0, an event held to promote competitive programming.",
+        "keyFeatures": [
+          "Promotional banners and posters",
+          "Social media kit for pre-event hype",
+          "Branded visuals with event identity",
+          "Used color psychology for maximum engagement"
+        ]
+      },
+      {
+        "title": "Redesign PT Alpha Zamasto Landing Page",
+        "type": "UI/UX Design",
+        "duration": "Oct 2024",
+        "techStack": ["Figma", "User Research", "Prototyping"],
+        "description": "Final project for Human-Computer Interaction course. Designed a modern and user-friendly landing page for PT Alpha Zamasto.",
+        "keyFeatures": [
+          "Wireframing based on user feedback",
+          "Modern UI layout with mobile-first approach",
+          "Clear call-to-actions and simplified navigation",
+          "Responsive mockup and clickable prototype"
+        ]
+      },
+      {
+        "title": "Children's Book Design",
+        "type": "Illustration & Book Design",
+        "duration": "Jun - Jul 2023",
+        "techStack": ["Illustrator", "InDesign", "Vector Graphics"],
+        "description": "Designed and illustrated three books for children aged 4-7, integrating educational content with engaging visuals.",
+        "keyFeatures": [
+          "Custom character illustrations",
+          "Page layout and text formatting",
+          "Use of vibrant colors to attract attention",
+          "Collaborated with educators for age-appropriate design"
+        ]
+      },
+      {
+        "title": "Image Manipulation Using Photoshop",
+        "type": "Digital Art & Photo Editing",
+        "duration": "2023",
+        "techStack": ["Photoshop"],
+        "description": "Created a portfolio of image manipulation works showcasing photo compositing, color correction, and visual storytelling.",
+        "keyFeatures": [
+          "Advanced masking and layer techniques",
+          "Color grading and retouching",
+          "Photo compositing from multiple sources",
+          "Concept-based visuals for storytelling"
+        ]
+      },
+      {
+        "title": "Designing 'STEPS' User Interface Apps",
+        "type": "UI/UX Design",
+        "duration": "Nov 2024 - Dec 2024",
+        "techStack": ["Figma", "Wireframing", "Prototyping"],
+        "description": "Final project for Software Engineering course. Designed the user interface for a mobile app focusing on user journey and accessibility.",
+        "keyFeatures": [
+          "User-centered design process",
+          "Mockups with clean and minimalistic layout",
+          "Flow diagrams and user journey mapping",
+          "Accessibility-aware design choices"
+        ]
+      },
+      {
+        "title": "Making BEM Cyber University Video Profile",
+        "type": "Video Production",
+        "duration": "Mar 2024",
+        "techStack": ["Premiere Pro", "After Effects"],
+        "description": "Produced a video profile that showcases the activities, vision, and mission of BEM Cyber University.",
+        "keyFeatures": [
+          "Scriptwriting and scene planning",
+          "Cinematography and video editing",
+          "Added motion graphics and subtitles",
+          "Exported for multiple platforms (YouTube, Instagram)"
+        ]
+      }
+    ]
+  }
+}

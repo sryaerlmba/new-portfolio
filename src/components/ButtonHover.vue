@@ -26,7 +26,7 @@ defineProps({
   <RouterLink
     v-if="page"
     v-bind="$attrs"
-    :to="page"
+    :to="{ name:page }"
     class="flex border py-3 px-6 hover:bg-sky-800 rounded-sm hover:text-white cursor-pointer transition ease-in-out duration-300 items-center justify-center"
   >
     <i :class="[icon, `mr-2`]"></i>
@@ -43,5 +43,3 @@ defineProps({
     <span>{{ text }}</span>
   </a>
 </template>
-
-:href="link"

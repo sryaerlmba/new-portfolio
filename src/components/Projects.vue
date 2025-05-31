@@ -4,12 +4,13 @@ import Project from './Project.vue'
 import Button from './Button.vue'
 
 const rawProjects = ref([])
-
 onMounted(async () => {
   const res = await fetch('data/project.json')
   const data = await res.json()
-  rawProjects.value = data.slice(0, 2)
+  rawProjects.value = data.projects.technical.slice(0, 2) // ambil 2 pertama
+  console.log(rawProjects.value)
 })
+
 
 // convert raw data ke format props yang dimau
 const projects = computed(() =>

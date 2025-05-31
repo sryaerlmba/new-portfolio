@@ -4,21 +4,21 @@
       "desc": "Explore my professional journey as a web developer and graphic designer.",
       "font": "ri-briefcase-line",
       "textButton": "View Experience",
-      "to" : "Experience"
+      "to" : "experience"
     },
     {
       "title": "Projects",
       "desc": "Check out my academic and projects showcasing my technical skills.",
       "font": "ri-code-s-slash-line",
       "textButton": "View Projects",
-      "to" : "Projects"
+      "to" : "projects"
     },
     {
       "title": "Education",
       "desc": "Learn about my academic background and certifications.",
       "font": "ri-book-line",
       "textButton": "View Education",
-      "to" : "Education"
+      "to" : "education"
     }
   ]
   

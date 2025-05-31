@@ -74,7 +74,7 @@ onMounted(async () => {
       </div>
 
       <div class="mt-10 flex justify-center" data-aos="fade-up">
-        <Button :text="buttonView" />
+        <Button :text="buttonView" page="experience" />
       </div>
   </section>
 </template>
