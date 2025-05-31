@@ -12,7 +12,8 @@
           "Job posting and application functionality",
           "Search and filter job listings",
           "Admin dashboard for site management"
-        ]
+        ],
+        "link": "https://github.com/sryaerlmba/cyber-jobs-website"
       },
       {
         "title": "Heart Disease Prediction",
@@ -25,7 +26,8 @@
           "Exploratory data analysis with visualizations",
           "Feature selection and engineering",
           "Implemented multiple ML models (e.g., Logistic Regression, Decision Tree)"
-        ]
+        ],
+        "link": "https://github.com/sryaerlmba/heart-disease-prediction"
       },
       {
         "title": "Machine Learning Portfolio",
@@ -38,7 +40,8 @@
           "Used TensorFlow and Keras for model training",
           "Processed and augmented image datasets",
           "Achieved high accuracy in gesture recognition"
-        ]
+        ],
+        "link": "https://drive.google.com/drive/u/0/folders/1obUomqn62iyCPPWSqrL1vIbSTedXel2h"
       },
       {
         "title": "Library Management System",
@@ -50,7 +53,8 @@
           "Book and member registration",
           "Borrow and return system",
           "CLI with menu navigation"
-        ]
+        ],
+        "link": "https://github.com/sryaerlmba/library-apps"
       },
       {
         "title": "Wedding Organizer Java App using Swing Framework",
@@ -62,7 +66,8 @@
           "Role-based login system",
           "Wedding package customization",
           "Booking management system"
-        ]
+        ],
+        "link": "https://github.com/sryaerlmba/wedding-organizer"
       }
     ],
     "design": [
@@ -77,7 +82,8 @@
           "Event branding graphics",
           "Consistent design language across platforms",
           "Optimized assets for various resolutions"
-        ]
+        ],
+        "link": "https://www.instagram.com/bem_cyberuniversity/"
       },
       {
         "title": "Decompe 3.0 Social Media Design",
@@ -90,7 +96,8 @@
           "Social media kit for pre-event hype",
           "Branded visuals with event identity",
           "Used color psychology for maximum engagement"
-        ]
+        ],
+        "link": "https://www.instagram.com/decompeofficial/"
       },
       {
         "title": "Redesign PT Alpha Zamasto Landing Page",
@@ -103,7 +110,8 @@
           "Modern UI layout with mobile-first approach",
           "Clear call-to-actions and simplified navigation",
           "Responsive mockup and clickable prototype"
-        ]
+        ],
+        "link": "https://www.figma.com/proto/xUHOuNkIUuapcJChZzpkf7/Tugas-gwehh?node-id=155-232&t=uCsSWHZtvaKg7G2C-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=155%3A232&show-proto-sidebar=1"
       },
       {
         "title": "Children's Book Design",
@@ -116,7 +124,8 @@
           "Page layout and text formatting",
           "Use of vibrant colors to attract attention",
           "Collaborated with educators for age-appropriate design"
-        ]
+        ],
+        "link": "http://figma.com/design/UTn9484nt4yrVSTbbaec4g/Project-Buku-Paud?node-id=0-1&t=v0MyCNN4oWFeDHRK-0"
       },
       {
         "title": "Image Manipulation Using Photoshop",
@@ -129,7 +138,8 @@
           "Color grading and retouching",
           "Photo compositing from multiple sources",
           "Concept-based visuals for storytelling"
-        ]
+        ],
+        "link": "https://drive.google.com/drive/folders/1AQoRzrrsakXD1qdELmwlr7H7Td7Kc-Pz"
       },
       {
         "title": "Designing 'STEPS' User Interface Apps",
@@ -142,7 +152,8 @@
           "Mockups with clean and minimalistic layout",
           "Flow diagrams and user journey mapping",
           "Accessibility-aware design choices"
-        ]
+        ],
+        "link": "https://www.figma.com/proto/chsIcAxWz9EAjyC7JEkDTF/Project-RPL?node-id=30-7&starting-point-node-id=431%3A21"
       },
       {
         "title": "Making BEM Cyber University Video Profile",
@@ -155,7 +166,8 @@
           "Cinematography and video editing",
           "Added motion graphics and subtitles",
           "Exported for multiple platforms (YouTube, Instagram)"
-        ]
+        ], 
+        "link": "https://www.youtube.com/watch?v=jL-GFy2HLiU"
       }
     ]
   }

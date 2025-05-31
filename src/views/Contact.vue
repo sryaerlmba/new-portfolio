@@ -139,12 +139,12 @@ const handleSubmit = async () => {
 
           <div class="flex items-center gap-2 mb-3">
             <i class="ri-mail-line text-gray-600"></i>
-            <p>youremail@example.com</p>
+            <a href="mailto:suryaerlamba3@gmail.com">suryaerlamba3@gmail.com</a>
           </div>
 
           <div class="flex items-center gap-2 mb-3">
             <i class="ri-phone-line text-gray-600"></i>
-            <p>+62 812-3456-7890</p>
+            <a href="https://wa.me/+6289614028027" target="_blank">+6289614028027</a>
           </div>
 
           <div class="flex items-center gap-2 mb-6">
@@ -154,21 +154,15 @@ const handleSubmit = async () => {
 
           <div>
             <h2 class="font-semibold text-lg mb-2">Connect with me</h2>
-            <div class="flex gap-4 ">
-              <a href="https://facebook.com" target="_blank" class="text-blue-600 text-xl">
-                <i class="ri-facebook-circle-fill"></i>
-              </a>
-              <a href="https://twitter.com" target="_blank" class="text-sky-500 text-xl">
-                <i class="ri-twitter-x-line"></i>
-              </a>
-              <a href="https://instagram.com" target="_blank" class="text-pink-500 text-xl">
-                <i class="ri-instagram-line"></i>
-              </a>
-              <a href="https://linkedin.com" target="_blank" class="text-blue-700 text-xl">
+            <div class="flex gap-4">
+              <a href="https://www.linkedin.com/in/suryaerlamba/" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-blue-700 text-white text-xl hover:bg-blue-800 transition-colors">
                 <i class="ri-linkedin-box-line"></i>
               </a>
-              <a href="https://github.com" target="_blank" class="text-black text-xl">
+              <a href="https://github.com/sryaerlmba" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-black text-white text-xl hover:bg-gray-800 transition-colors">
                 <i class="ri-github-line"></i>
+              </a>
+              <a href="https://instagram.com/sryaerlmba" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-pink-500 text-white text-xl hover:bg-pink-600 transition-colors">
+                <i class="ri-instagram-line"></i>
               </a>
             </div>
           </div>
