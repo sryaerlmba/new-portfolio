@@ -76,7 +76,7 @@ const handleSubmit = async () => {
       <div class="flex flex-col md:flex-row gap-5 md:gap-10" data-aos="fade-up">
         <div class="border rounded-md border-gray-400 mt-5 md:w-3/5 w-full">
           <!-- contact form -->
-          <form @submit.prevent="handleSubmit" class="p-5">
+          <form @submit.prevent="handleSubmit" class="p-5" @keyup.enter.prevent="handleSubmit">
             <div class="flex flex-col md:flex-row gap-5 w-full">
               <div class="w-full">
                 <label>Name</label>

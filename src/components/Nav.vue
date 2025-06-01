@@ -11,8 +11,7 @@ const handleClickOutside = (event) => {
   }
 }
 
-const toggleMenu = (event) => {
-  event.stopPropagation()
+const toggleMenu = () => {
   isOpen.value = !isOpen.value
 }
 
@@ -83,7 +82,7 @@ onUnmounted(() => {
             type="button"
             class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500"
             aria-controls="mobile-menu"
-            @click="toggleMenu"
+            @click.stop="toggleMenu"
             :aria-expanded="isOpen"
           >
             <span class="sr-only">Open main menu</span>
