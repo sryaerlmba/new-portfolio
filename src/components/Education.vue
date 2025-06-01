@@ -32,7 +32,7 @@ const button = {
 </script>
 
 <template>
-  <section class="my-10 mx-auto container min-h-screen">
+  <section class="my-10 mx-auto container ">
     <h1
       class="text-start text-2xl font-bold text-sky-800 uppercase pl-5 sm:p-0"
       data-aos="fade-left"
