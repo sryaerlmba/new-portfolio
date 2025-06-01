@@ -1,4 +1,5 @@
 <script setup>
+import Home from '@/views/Home.vue'
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const isOpen = ref(false)
@@ -31,7 +32,9 @@ onUnmounted(() => {
     <div class="mx-auto container px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="flex items-center">
-          <span class="text-sky-800 font-bold text-2xl">Surya.</span>
+          <RouterLink :to="{ name: 'home' }" class="text-sky-800 font-bold text-2xl"
+            >Surya.</RouterLink
+          >
         </div>
 
         <div class="hidden sm:block">
