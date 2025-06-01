@@ -14,12 +14,11 @@
       <div class="flex flex-col items-center">
         <h4 class="text-lg font-semibold mb-4 text-blue-300">Quick Links</h4>
         <nav class="flex flex-col gap-2 text-sm items-center">
-          <a href="#" class="hover:text-blue-200 hover:underline transition duration-200">Home</a>
-          <a href="#" class="hover:text-blue-200 hover:underline transition duration-200">Experience</a>
-          <a href="#" class="hover:text-blue-200 hover:underline transition duration-200">Education</a>
-          <a href="#" class="hover:text-blue-200 hover:underline transition duration-200">Projects</a>
-          <a href="#" class="hover:text-blue-200 hover:underline transition duration-200">Skills</a>
-          <a href="#" class="hover:text-blue-200 hover:underline transition duration-200">Contact</a>
+          <RouterLink :to="{ name: 'home' }" class="hover:text-blue-200 hover:underline transition duration-200">Home</RouterLink>
+          <RouterLink :to="{ name: 'experience' }" class="hover:text-blue-200 hover:underline transition duration-200">Experience</RouterLink>
+          <RouterLink :to="{ name: 'education' }" class="hover:text-blue-200 hover:underline transition duration-200">Education</RouterLink>
+          <RouterLink :to="{ name: 'projects' }" class="hover:text-blue-200 hover:underline transition duration-200">Projects</RouterLink>
+          <RouterLink :to="{ name: 'contact' }" class="hover:text-blue-200 hover:underline transition duration-200">Contact</RouterLink>
         </nav>
       </div>
 
@@ -103,7 +102,7 @@
             </svg>
           </a>
         </div>
-        
+
       </div>
     </div>
 
