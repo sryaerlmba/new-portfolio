@@ -47,7 +47,7 @@ onMounted(async () => {
           like to discuss potential collaboration or have any questions about my work experience,
           please don't hesitate to reach out. Contact Me
         </p>
-        <Button text="Contact" class="justify-center mt-5 md:justify-start md:w-fit" />
+        <Button text="Contact" class="justify-center mt-5 md:justify-start md:w-fit" page="contact"/>
       </div>
     </div>
   </div>
