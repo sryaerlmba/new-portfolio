@@ -11,7 +11,6 @@ onMounted(async () => {
   console.log(rawProjects.value)
 })
 
-
 // convert raw data ke format props yang dimau
 const projects = computed(() =>
   rawProjects.value.map((p) => ({
@@ -19,6 +18,7 @@ const projects = computed(() =>
     period: p.duration,
     desc: p.description,
     badges: p.techStack,
+    link: p.link,
   })),
 )
 </script>
@@ -38,7 +38,7 @@ const projects = computed(() =>
       <Project v-for="(project, index) in projects" :key="index" v-bind="project" data-aos="fade-up" />
       </div>
       <div class="flex justify-center mt-10" data-aos="fade-up">
-        <Button :text="`View All Projects`" />
+        <Button :text="`View All Projects`" page="projects"/>
       </div>
     </div>
   </section>

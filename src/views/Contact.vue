@@ -67,14 +67,14 @@ const handleSubmit = async () => {
   <div class="md:px-18">
     <div class="my-30 mx-auto container px-5">
       <h1 class="font-bold text-4xl text-sky-800" data-aos="fade-right">Get In Touch</h1>
-      <p class="font-semibold mt-5 text-gray-600">
+      <p class="font-semibold mt-5 text-gray-600" data-aos="fade">
         Have a project in mind or want to discuss potential opportunities? I'd love to hear from
         you! Feel free to reach out using the contact form or through my contact information below.
       </p>
 
       <!-- contact form -->
-      <div class="flex gap-10">
-        <div class="border rounded-md border-gray-400 mt-5 w-3/5">
+      <div class="flex flex-col md:flex-row gap-5 md:gap-10" data-aos="fade-up">
+        <div class="border rounded-md border-gray-400 mt-5 md:w-3/5 w-full">
           <!-- contact form -->
           <form @submit.prevent="handleSubmit" class="p-5">
             <div class="flex flex-col md:flex-row gap-5 w-full">
@@ -134,7 +134,7 @@ const handleSubmit = async () => {
 
         <!-- profile -->
 
-        <div class="w-2/5 border p-5 mt-5 border-gray-400 rounded-lg shadow-sm">
+        <div class="md:w-2/5 w-full border p-5 md:mt-5 border-gray-400 rounded-lg shadow-sm">
           <h1 class="font-semibold text-2xl mb-4">Contact Information</h1>
 
           <div class="flex items-center gap-2 mb-3">

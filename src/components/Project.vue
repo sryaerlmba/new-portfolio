@@ -20,6 +20,10 @@ defineProps({
     type: Array,
     required: true,
   },
+  link: {
+    type: String,
+    required: false,
+  }
 })
 </script>
 
@@ -39,7 +43,7 @@ defineProps({
         <Badge v-for="(item, index) in badges" :key="index" :text="item" class="shadow-2xl" />
       </div>
       <div class="mt-auto pt-5">
-        <ButtonHover :text="`View Project`"/>
+        <ButtonHover :text="`View Project`" :link="link"/>
       </div>
     </div>
   </div>

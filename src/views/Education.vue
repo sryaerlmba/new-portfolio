@@ -19,15 +19,15 @@ onMounted(async () => {
 <template>
   <div class="md:px-18">
     <div class="my-30 mx-auto container min-h-screen px-5">
-      <h1 class="text-sky-800 text-4xl font-bold">Education, Certification and Course</h1>
-      <p class="font-medium text-gray-600 mt-5">
+      <h1 class="text-sky-800 text-4xl font-bold" data-aos="fade-left">Education, Certification and Course</h1>
+      <p class="font-medium text-gray-600 mt-5" data-aos="fade-left">
         My academic journey and professional development through various educational programs,
         certifications, and courses that have shaped my skills and knowledge.
       </p>
 
       <!-- Formal Education -->
       <div class="">
-        <h1 class="text-sky-800 text-4xl font-semibold mt-5">Formal Education</h1>
+        <h1 class="text-sky-800 text-4xl font-semibold mt-5" data-aos="fade-left">Formal Education</h1>
         <hr class="h-px my-4 bg-sky-800 border-0" />
 
         <div class="sm:p-0">
@@ -74,7 +74,7 @@ onMounted(async () => {
             </div>
           </div>
         </div>
-        <h1 class="text-sky-800 text-4xl font-semibold mt-5">Certification</h1>
+        <h1 class="text-sky-800 text-4xl font-semibold mt-5" data-aos="fade-left">Certification</h1>
         <hr class="h-px my-4 bg-sky-800 border-0" />
 
         <EducationDetail :data="certificates.professional" type="professional" />
