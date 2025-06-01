@@ -43,7 +43,7 @@ defineProps({
           <p class="mt-5 font-medium text-lg">{{ desc }}</p>
           <div class="mt-5 space-x-5">
             <div class="flex space-x-3">
-              <Button text="Contact Me" icon="ri-mail-line" :link="email"></Button>
+              <Button text="Contact Me" icon="ri-mail-line" page="contact"></Button>
               <ButtonHover text="Github Profile" icon="ri-github-line" :link="github" ></ButtonHover>
             </div>
           </div>

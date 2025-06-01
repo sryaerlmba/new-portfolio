@@ -26,7 +26,7 @@
         <h4 class="text-lg font-semibold mb-4 text-blue-300">Connect With Me</h4>
         <div class="flex space-x-5 mb-4">
           <a
-            href="YOUR_LINKEDIN_URL"
+            href="https://www.linkedin.com/in/surya-erlamba-070123201/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn Profile"
@@ -45,7 +45,7 @@
             </svg>
           </a>
           <a
-            href="YOUR_GITHUB_URL"
+            href="h"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub Profile"
@@ -54,7 +54,7 @@
             <svg
               role="img"
               viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns="https://github.com/sryaerlmba"
               class="h-7 w-7 fill-current"
             >
               <title>GitHub</title>
@@ -64,7 +64,7 @@
             </svg>
           </a>
           <a
-            href="YOUR_INSTAGRAM_URL"
+            href="https://www.instagram.com/sryaerlmba"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram Profile"
@@ -83,7 +83,7 @@
             </svg>
           </a>
           <a
-            href="https://wa.me/YOUR_PHONE_NUMBER"
+          href="https://wa.me/+6289614028027"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp"
