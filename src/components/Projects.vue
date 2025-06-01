@@ -8,7 +8,6 @@ onMounted(async () => {
   const res = await fetch('data/project.json')
   const data = await res.json()
   rawProjects.value = data.projects.technical.slice(0, 2) // ambil 2 pertama
-  console.log(rawProjects.value)
 })
 
 // convert raw data ke format props yang dimau

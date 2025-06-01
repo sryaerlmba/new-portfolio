@@ -20,7 +20,6 @@ onMounted(async () => {
 
   dataExperience.value = [...work, ...orga]
 
-  console.log(dataExperience.value)
 })
 </script>
 

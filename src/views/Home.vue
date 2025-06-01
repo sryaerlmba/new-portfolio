@@ -12,7 +12,6 @@ const profile = ref([])
 onMounted(async ()=>{
   const response = await fetch("data/profile.json")
   profile.value = await response.json()
-  console.log(profile.value, "ini profile")
 })
 </script>
 

@@ -8,7 +8,6 @@ onMounted(async () => {
   const res = await fetch('data/cardPorto.json')
   const data = await res.json()
   cardPorto.value = data
-  console.log(cardPorto.value, 'ini card porto')
 })
 </script>
 

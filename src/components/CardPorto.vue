@@ -1,7 +1,6 @@
 <script setup>
 import { defineProps } from 'vue';
 import ButtonHover from './ButtonHover.vue';
-console.log("halllo")
 
 defineProps({
   text: {

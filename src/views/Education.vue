@@ -12,7 +12,6 @@ onMounted(async () => {
   const data = await response.json()
   certificates.value = data
   courses.value = data.courses
-  console.log(certificates.value)
 })
 </script>
 
