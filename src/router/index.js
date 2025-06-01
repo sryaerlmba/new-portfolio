@@ -13,12 +13,11 @@
     },
     routes: [
       {
-        path: '/',
-        redirect: '/home',
+        path: "/",
         component: Layout,
         children: [
           {
-            path: 'home',
+            path: '',
             name: 'home',
             component: () => import('@/views/Home.vue'),
           },
