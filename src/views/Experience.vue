@@ -25,7 +25,7 @@ onMounted(async () => {
 
 <template>
   <div class="md:px-18">
-    <div class="my-30 container mx-auto px-5 min-h-screenP">
+    <div class="my-30 container mx-auto px-5 min-h-screen">
       <div>
         <h1 class="font-bold text-4xl text-sky-800" data-aos="fade-right">Experience</h1>
         <p class="mt-5 font-semibold" data-aos="fade-right">
