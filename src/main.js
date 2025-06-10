@@ -2,10 +2,10 @@ import './assets/style.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-import nProgress from 'nprogress'
+import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 
-nProgress.configure({
+NProgress.configure({
   showSpinner: false,
 })
 

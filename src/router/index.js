@@ -1,6 +1,6 @@
   import { createRouter, createWebHistory } from 'vue-router'
   import Layout from '@/views/Layout.vue'
-  import nProgress from 'nprogress'
+  import NProgress from 'nprogress'
   import 'nprogress/nprogress.css'
 
   const router = createRouter({
@@ -53,13 +53,13 @@
   })
 
   router.beforeEach((to, from, next) => {
-    nProgress.start()
+    NProgress.start()
     next()
   })
 
   router.afterEach(() => {
     setTimeout(()=>{
-      nProgress.done()
+      NProgress.done()
     }, 200)
   })
 
