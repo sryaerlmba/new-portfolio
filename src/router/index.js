@@ -1,5 +1,7 @@
   import { createRouter, createWebHistory } from 'vue-router'
   import Layout from '@/views/Layout.vue'
+  import NProgress from 'nprogress'
+  import 'nprogress/nprogress.css'
 
   const router = createRouter({
 
@@ -48,6 +50,17 @@
         ],
       },
     ],
+  })
+
+  router.beforeEach((to, from, next) => {
+    NProgress.start()
+    next()
+  })
+
+  router.afterEach(() => {
+    setTimeout(()=>{
+      NProgress.done()
+    }, 200)
   })
 
   export default router

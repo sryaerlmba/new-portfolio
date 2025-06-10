@@ -2,13 +2,19 @@ import './assets/style.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
+import nProgress from 'nprogress'
+import 'nprogress/nprogress.css'
+
+nProgress.configure({
+  showSpinner: false,
+})
 
 import App from './App.vue'
 import router from './router'
-import  AOS  from 'aos'
-import 'aos/dist/aos.css'; 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
-AOS.init();
+AOS.init()
 
 import 'remixicon/fonts/remixicon.css'
 
