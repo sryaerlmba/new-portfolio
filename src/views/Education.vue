@@ -3,16 +3,25 @@ import Badge from '@/components/Badge.vue'
 import { ref, onMounted, watchEffect } from 'vue'
 import Button from '@/components/Button.vue'
 import EducationDetail from '@/components/EducationDetail.vue'
+import { useI18n } from 'vue-i18n'
+
+const { t, locale } = useI18n()
 
 const certificates = ref([])
 const courses = ref([])
 
-onMounted(async () => {
+const fetchCertificate = async() => {
   const response = await fetch('data/certificate.json')
   const data = await response.json()
+
   certificates.value = data
   courses.value = data.courses
+}
+ 
+onMounted(() => {
+  fetchCertificate()
 })
+
 </script>
 
 <template>

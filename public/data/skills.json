@@ -6,7 +6,6 @@
     { "name": "C++", "cdn": "https://cdn.simpleicons.org/cplusplus" },
     { "name": "PHP", "cdn": "https://cdn.simpleicons.org/php" },
     { "name": "HTML", "cdn": "https://cdn.simpleicons.org/html5" },
-    { "name": "CSS", "cdn": "https://cdn.simpleicons.org/css3" },
     { "name": "SQL", "cdn": "https://cdn.simpleicons.org/mysql" }
   ],
   "Frameworks & Libraries": [

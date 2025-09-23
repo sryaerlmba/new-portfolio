@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Home",
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact",
+    "language": "Languages"
+  },
+  "footer": {
+    "about": "An enthusiastic undergraduate student majoring in System and Information Technology with a strong foundation in web development and design..",
+    "connect": "Connect With Me"
+  },
+  "hello": "hello!",
+  "welcome": "welcome!",
+  "portfolio": {
+    "title": "Explore My Portfolio"
+  },
+  "button": {
+    "contact": "Contact Me",
+    "github": "Github Profile",
+    "experience": {
+      "work_experience": "Work Experience",
+      "organization_experience": "Organization Experience",
+      "all_experience": "View All Experience"
+    },
+    "projects": "View all Projects",
+    "single_project": "View Project"
+  },
+  "experience": "Experience",
+  "description" : "My professional journey includes roles in web development, graphic design, and media management. Each position has helped me develop a diverse skill set and adaptability across different projects and environments.",
+  "additional" : "Additional Information",
+  "additional_description" : "I'm always eager to take on new challenges and expand my professional experience. If you'd like to discuss potential collaboration or have any questions about my work experience, please don't hesitate to reach out. Contact Me.",
+  "education": {
+    "title": "Education",
+    "undergraduate": "Undergraduate",
+    "duration": "09/2022 - present",
+    "major": "System and Information Technology",
+    "university": "Cyber University, South Jakarta, Indonesia",
+    "scholarship": "Recipient of the BRI Institute Cemerlang Scholarship (Minimum GPA: 3.00)",
+    "button": "See Education",
+    "key_courses": {
+      "title": "Key Courses",
+      "it_title": "IT Courses:",
+      "it_content": "Programming Algorithms, Information Systems Analysis, Information and Communication Technology, Discrete Mathematics, Cyber Security, Statistics (Python), Object Oriented Programming (Java), Databases (SQL), Digital Marketing, English, Privacy and Data Protection, Organization and Computer Architecture, Web Programming (PHP), Financial Technology, Research Methodology, Management Information System, Risk Management.",
+      "banking_title": "Banking Course:",
+      "banking_content": "Accounting, Microfinance, Business Mathematics, Basic Banking."
+    },
+    "certifications": {
+      "title": "Certifications & Courses",
+      "button": "View All Certifications"
+    },
+    "awards": {
+      "title": "Awards",
+      "label": "SB IEEE UNM",
+      "description": "Creating an Abstract with the theme \"Driving Digital Transformation Technology and Artificial Intelligence for the future\"."
+    }
+  },
+  "projects": {
+    "college": "College Projects"
+  }
+}

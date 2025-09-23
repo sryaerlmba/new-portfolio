@@ -1,24 +1,48 @@
-[
+{
+  "cardPorto_en": [
     {
       "title": "Work Experience",
       "desc": "Explore my professional journey as a web developer and graphic designer.",
       "font": "ri-briefcase-line",
       "textButton": "View Experience",
-      "to" : "experience"
+      "to": "experience"
     },
     {
       "title": "Projects",
       "desc": "Check out my academic and projects showcasing my technical skills.",
       "font": "ri-code-s-slash-line",
       "textButton": "View Projects",
-      "to" : "projects"
+      "to": "projects"
     },
     {
       "title": "Education",
       "desc": "Learn about my academic background and certifications.",
       "font": "ri-book-line",
       "textButton": "View Education",
-      "to" : "education"
+      "to": "education"
+    }
+  ],
+  "cardPorto_id": [
+    {
+      "title": "Pengalaman Kerja",
+      "desc": "Lihat perjalanan profesional saya sebagai Web Developer dan Desainer Grafis.",
+      "font": "ri-briefcase-line",
+      "textButton": "Lihat Pengalaman",
+      "to": "experience"
+    },
+    {
+      "title": "Proyek",
+      "desc": "Telusuri berbagai proyek akademik dan pribadi yang menunjukkan kemampuan teknis saya.",
+      "font": "ri-code-s-slash-line",
+      "textButton": "Lihat Proyek",
+      "to": "projects"
+    },
+    {
+      "title": "Pendidikan",
+      "desc": "Pelajari latar belakang pendidikan dan sertifikasi yang telah saya tempuh.",
+      "font": "ri-book-line",
+      "textButton": "Lihat Pendidikan",
+      "to": "education"
     }
   ]
-  
+}

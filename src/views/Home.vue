@@ -1,22 +1,40 @@
 <script setup>
-import Education from '@/components/Education.vue'
-import Experience from '@/components/Experience.vue'
-import Jumbotron from '@/components/Jumbotron.vue'
-import Portfolio from '@/components/Portfolio.vue'
-import Projects from '@/components/Projects.vue'
-import Skills from '@/components/Skills.vue'
+import Education from "@/components/Education.vue";
+import Experience from "@/components/Experience.vue";
+import Jumbotron from "@/components/Jumbotron.vue";
+import Portfolio from "@/components/Portfolio.vue";
+import Projects from "@/components/Projects.vue";
+import Skills from "@/components/Skills.vue";
+import { onMounted, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+const { t, locale } = useI18n();
 
-import { onMounted, ref } from 'vue'
+// profile data
+const profile = ref([]);
 
-const profile = ref([])
-onMounted(async ()=>{
-  const response = await fetch("data/profile.json")
-  profile.value = await response.json()
+// fetch profile data
+const fetchProfile = async () => {
+  const response = await fetch("data/profile.json");
+  const data = await response.json();
+
+  const langKey = `profile_${locale.value}`;
+  profile.value = data[langKey];
+};
+
+// watch
+watch(locale, () => {
+  fetchProfile();
+});
+
+// on mounted
+onMounted(() => {
+  fetchProfile();
 })
+
 </script>
 
 <template>
-  <Jumbotron v-bind="profile" />
+  <Jumbotron v-bind="profile" v-if="profile.name" />
   <Portfolio />
   <div class="md:px-18">
     <Experience />
@@ -27,4 +45,3 @@ onMounted(async ()=>{
 </template>
 
 <style scoped></style>
-

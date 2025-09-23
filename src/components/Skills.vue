@@ -11,7 +11,6 @@ onMounted(async () => {
   skills.value = data
 })
 
-console.info(skills)
 </script>
 
 <template>

@@ -1,7 +1,17 @@
 {
-    "name": "Surya Erlamba",
-    "role": "Web Developer | Graphic Designer",
-    "desc" : "An enthusiastic undergraduate student majoring in System and Information Technology with a strong foundation in web development and design.",
-    "email": "mailto:suryaerlamba3@gmail.com",
-    "github": "https://github.com/sryaerlmba"
-}
+    "profile_en": {
+      "name": "Surya Erlamba",
+      "role": "Web Developer | Graphic Designer",
+      "desc": "An enthusiastic undergraduate student majoring in System and Information Technology with a strong foundation in web development and design.",
+      "email": "mailto:suryaerlamba3@gmail.com",
+      "github": "https://github.com/sryaerlmba"
+    },
+    "profile_id": {
+      "name": "Surya Erlamba",
+      "role": "Web Developer | Graphic Designer",
+      "desc": "Mahasiswa aktif jurusan Sistem dan Teknologi Informasi yang memiliki ketertarikan tinggi serta kemampuan kuat di bidang pengembangan web dan desain grafis.",
+      "email": "mailto:suryaerlamba3@gmail.com",
+      "github": "https://github.com/sryaerlmba"
+    }
+  }
+  

@@ -1,13 +1,29 @@
-<script setup lang="ts">
-import { onMounted, ref } from 'vue'
-import ButtonHover from './ButtonHover.vue'
+<script setup>
+import { onMounted, ref, watch } from 'vue'
 import CardPorto from './CardPorto.vue'
+import { useI18n } from 'vue-i18n'
+const { t, locale } = useI18n()
 
+// State
 const cardPorto = ref([])
-onMounted(async () => {
+
+// Fetch data
+const fetchCardPorto = async () => {
   const res = await fetch('data/cardPorto.json')
   const data = await res.json()
-  cardPorto.value = data
+  const keyLang = `cardPorto_${locale.value}`
+
+  cardPorto.value = data[keyLang]
+}
+
+// Watch locale change
+watch(locale, () => {
+  fetchCardPorto()
+})
+
+// onMounted
+onMounted(() => {
+  fetchCardPorto()
 })
 </script>
 
@@ -16,7 +32,7 @@ onMounted(async () => {
     <div class="xl:px-18">
       <div class="container mx-auto">
         <h1 class="text-center text-2xl font-bold text-sky-800 uppercase" data-aos="fade-down">
-          Explore My Portfolio
+          {{ t('portfolio.title') }}
         </h1>
         <hr class="my-5 text-sky-800 max-w-[90vw] mx-auto" />
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-5 sm:p-0 my-10">

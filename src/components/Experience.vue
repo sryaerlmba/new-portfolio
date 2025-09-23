@@ -1,23 +1,49 @@
 <script setup>
-import { reactive, ref, onMounted } from 'vue'
+import { reactive, ref, onMounted, watch, computed } from 'vue'
 import ButtonHover from './ButtonHover.vue'
 import Button from './Button.vue'
+import { useI18n } from 'vue-i18n'
 
-const currentTab = ref('Work Experience')
-const buttonText = ref(['Work Experience', 'Organization Experience'])
+// i18n
+const { t, locale, messages } = useI18n()
 
-const buttonView = 'View All Experience'
+// state
+const currentTab = ref('work_experience')
+
 const experience = reactive({
   workExperience: [],
   organizationExperience: [],
 })
 
-onMounted(async () => {
+// button akan ddijalani lagi ketika locale berubah
+const button = computed(() => ({
+  work_experience: messages.value[locale.value].button.experience.work_experience,
+  organization_experience: messages.value[locale.value].button.experience.organization_experience
+}))
+
+// Fetch data
+const fetchExperience = async () => {
   const res = await fetch('data/experience.json')
-  const data = await res.json()
+  const rawData = await res.json()
+
+  const langKey  = `experience_${locale.value}`
+  const data = rawData[langKey]
+
   experience.workExperience = data.workExperience.slice(0, 3)
   experience.organizationExperience = data.organizationExperience.slice(0, 2)
+
+}
+
+// Watch locale change
+watch(locale, () => {
+  fetchExperience()
 })
+
+// onMounted
+onMounted(() => {
+  fetchExperience()
+})
+
 </script>
 
 <template>
@@ -26,22 +52,22 @@ onMounted(async () => {
         class="text-start text-2xl font-bold text-sky-800 uppercase px-5 sm:p-0"
         data-aos="fade-left"
       >
-        Experience
+        {{ t('experience') }}
       </h1>
       <hr class="my-5 text-sky-800 max-w-[90vw] mx-auto" />
 
       <div class="flex justify-center space-x-2 sm:justify-start px-5 sm:p-0" data-aos="fade-up">
         <ButtonHover
-          v-for="button in buttonText"
-          :key="button"
+          v-for="(button, index) in button"
+          :key="index"
           :text="button"
-          :class="{ 'bg-sky-800 text-white': button === currentTab }"
-          @click="currentTab = button"
+          :class="{ 'bg-sky-800 text-white': currentTab === index }"
+          @click="currentTab = index"
           class="transisition-all duration-300 ease-in-out"
         />
       </div>
 
-      <div class="grid-cols-1 grid my-5 gap-2 px-5 sm:p-0" v-if="currentTab === 'Work Experience'">
+      <div class="grid-cols-1 grid my-5 gap-2 px-5 sm:p-0" v-if="currentTab === 'work_experience'">
         <div
           class="rounded shadow-lg p-5"
           v-for="(item, index) in experience.workExperience"
@@ -74,7 +100,7 @@ onMounted(async () => {
       </div>
 
       <div class="mt-10 flex justify-center" data-aos="fade-up">
-        <Button :text="buttonView" page="experience" />
+        <Button :text="t('button.experience.all_experience')" page="experience" />
       </div>
   </section>
 </template>

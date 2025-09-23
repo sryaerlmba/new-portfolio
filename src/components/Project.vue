@@ -2,6 +2,8 @@
 import { defineProps } from 'vue'
 import Badge from './Badge.vue';
 import ButtonHover from './ButtonHover.vue';
+import { useI18n } from 'vue-i18n';
+const { t } = useI18n();
 
 defineProps({
   title: {
@@ -43,7 +45,7 @@ defineProps({
         <Badge v-for="(item, index) in badges" :key="index" :text="item" class="shadow-2xl" />
       </div>
       <div class="mt-auto pt-5">
-        <ButtonHover :text="`View Project`" :link="link"/>
+        <ButtonHover :text="t('button.single_project')" :link="link"/>
       </div>
     </div>
   </div>

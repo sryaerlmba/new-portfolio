@@ -1,11 +1,13 @@
 <script setup>
 import Button from './Button.vue'
 import ButtonHover from './ButtonHover.vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 
 defineProps({
   name: {
     type: String,
-    required: true,
     default: 'Surya Erlamba',
   },
   role: {
@@ -43,13 +45,17 @@ defineProps({
           <p class="mt-5 font-medium text-lg">{{ desc }}</p>
           <div class="mt-5 space-x-5">
             <div class="flex space-x-3">
-              <Button text="Contact Me" icon="ri-mail-line" page="contact"></Button>
-              <ButtonHover text="Github Profile" icon="ri-github-line" :link="github" ></ButtonHover>
+              <Button :text="t('button.contact')" icon="ri-mail-line" page="contact"></Button>
+              <ButtonHover
+                :text="t('button.github')"
+                icon="ri-github-line"
+                :link="github"
+              ></ButtonHover>
             </div>
           </div>
         </div>
         <Transition>
-          <div class="hidden md:block" >
+          <div class="hidden md:block">
             <div class="flex justify-center items-center">
               <div class="overflow-hidden border-4 w-88 h-88 rounded-full text-sky-800 bg-sky-100">
                 <img src="/img/surya.png" alt="" class="h-full mx-auto mt-5" />
@@ -57,7 +63,7 @@ defineProps({
             </div>
           </div>
         </Transition>
-        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -71,4 +77,5 @@ defineProps({
 .v-enter-from,
 .v-leave-to {
   opacity: 0;
-}</style>
+}
+</style>

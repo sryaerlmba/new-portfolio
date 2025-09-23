@@ -1,5 +1,5 @@
 {
-  "projects": {
+  "projects_en": {
     "technical": [
       {
         "title": "Cyber Jobs Web Using CodeIgniter",
@@ -160,6 +160,172 @@
           "Scriptwriting and scene planning",
           "Cinematography and video editing",
           "Added motion graphics and subtitles"
+        ],
+        "link": "https://www.youtube.com/watch?v=jL-GFy2HLiU"
+      }
+    ]
+  },
+  "projects_id": {
+    "technical": [
+      {
+        "title": "Website Cyber Jobs Menggunakan CodeIgniter",
+        "type": "Aplikasi Web",
+        "duration": "Des 2024 - Jan 2025",
+        "techStack": ["PHP", "CodeIgniter 3", "MySQL", "Bootstrap"],
+        "description": "Proyek akhir untuk mata kuliah Pemrograman Web. Membangun situs portal pekerjaan di mana pengguna bisa mendaftar, memasang lowongan, dan melamar kerja.",
+        "keyFeatures": [
+          "Pendaftaran dan autentikasi pengguna untuk pencari kerja dan perusahaan",
+          "Fitur memasang dan melamar pekerjaan",
+          "Pencarian dan filter lowongan kerja",
+          "Dashboard admin untuk pengelolaan situs"
+        ],
+        "link": "https://github.com/sryaerlmba/cyber-jobs-website"
+      },
+      {
+        "title": "Aplikasi Java Wedding Organizer menggunakan Swing",
+        "type": "Aplikasi Desktop",
+        "duration": "Mei 2024 - Jun 2024",
+        "techStack": ["Java", "Swing", "MySQL"],
+        "description": "Proyek akhir untuk mata kuliah PBO. Aplikasi desktop dengan role admin, organizer, dan pengguna untuk mengelola paket pernikahan, pemesanan, dan keuangan.",
+        "keyFeatures": [
+          "Sistem login berbasis peran (role)",
+          "Kustomisasi paket pernikahan",
+          "Sistem manajemen pemesanan"
+        ],
+        "link": "https://github.com/sryaerlmba/wedding-organizer"
+      },
+      {
+        "title": "Prediksi Penyakit Jantung",
+        "type": "Data Science",
+        "duration": "Des 2023 - Jan 2024",
+        "techStack": ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
+        "description": "Proyek akhir untuk mata kuliah Statistika. Memprediksi penyakit jantung menggunakan model machine learning berdasarkan beberapa indikator kesehatan.",
+        "keyFeatures": [
+          "Pembersihan dan pra-pemrosesan data",
+          "Analisis data eksploratif dengan visualisasi",
+          "Seleksi dan rekayasa fitur",
+          "Implementasi beberapa model ML (mis. Regresi Logistik, Decision Tree)"
+        ],
+        "link": "https://github.com/sryaerlmba/heart-disease-prediction"
+      },
+      {
+        "title": "Portofolio Machine Learning",
+        "type": "Machine Learning",
+        "duration": "Jan 2024",
+        "techStack": ["Python", "TensorFlow", "Keras", "NumPy"],
+        "description": "Proyek akhir dari kursus ML Dicoding. Membangun model untuk mengklasifikasi gerakan tangan (batu, kertas, gunting) menggunakan deep learning.",
+        "keyFeatures": [
+          "Membangun model CNN untuk klasifikasi gambar",
+          "Menggunakan TensorFlow dan Keras untuk pelatihan model",
+          "Memproses dan augmentasi dataset gambar",
+          "Mencapai akurasi tinggi dalam pengenalan gesture"
+        ],
+        "link": "https://drive.google.com/drive/u/0/folders/1obUomqn62iyCPPWSqrL1vIbSTedXel2h"
+      },
+      {
+        "title": "Sistem Manajemen Perpustakaan",
+        "type": "Aplikasi Desktop",
+        "duration": "Mei 2023 - Jun 2023",
+        "techStack": ["C++"],
+        "description": "Proyek akhir untuk mata kuliah Algoritma Pemrograman. Membuat aplikasi manajemen perpustakaan berbasis CLI untuk mengelola buku, anggota, dan peminjaman.",
+        "keyFeatures": [
+          "Pendaftaran buku dan anggota",
+          "Sistem peminjaman dan pengembalian",
+          "Antarmuka CLI dengan navigasi menu"
+        ],
+        "link": "https://github.com/sryaerlmba/library-apps"
+      }
+    ],
+    "design": [
+      {
+        "title": "Desain Media Sosial BEM Universitas Cyber",
+        "type": "Desain Grafis",
+        "duration": "Beberapa Kesempatan (2023 - 2024)",
+        "techStack": ["Photoshop", "Canva", "Illustrator"],
+        "description": "Mendesain berbagai konten media sosial untuk BEM Universitas Cyber guna meningkatkan keterlibatan dan mempromosikan acara.",
+        "keyFeatures": [
+          "Menyampaikan 50+ update ke stakeholder melalui media online dan offline",
+          "Mempublikasikan laporan dan dokumentasi dengan konten visual dan teks",
+          "Mengelola media sosial untuk membangun dan menjaga relasi eksternal",
+          "Mendesain feed Instagram yang kohesif dan menarik secara visual"
+        ],
+        "link": "https://www.instagram.com/bem_cyberuniversity/"
+      },
+      {
+        "title": "Desain Media Sosial Decompe 3.0",
+        "type": "Desain Grafis",
+        "duration": "2023",
+        "techStack": ["Figma", "Canva", "Illustrator"],
+        "description": "Membuat aset digital dan visual kampanye untuk Decompe 3.0, acara untuk mempromosikan competitive programming.",
+        "keyFeatures": [
+          "Menyusun dan menjalankan strategi marketing untuk pertumbuhan brand",
+          "Membuat 30+ desain grafis Instagram yang menarik",
+          "Membuat konten menarik untuk Instagram Decompe 3.0 untuk meningkatkan interaksi",
+          "Mendesain 10+ merchandise, meningkatkan visibilitas dan penjualan brand"
+        ],
+        "link": "https://www.instagram.com/decompeofficial/"
+      },
+      {
+        "title": "Redesain Landing Page PT Alpha Zamasto",
+        "type": "Desain UI/UX",
+        "duration": "Okt 2024",
+        "techStack": ["Figma", "Prototyping"],
+        "description": "Proyek akhir untuk mata kuliah Interaksi Manusia dan Komputer. Mendesain landing page modern dan ramah pengguna untuk PT Alpha Zamasto.",
+        "keyFeatures": [
+          "Tata letak UI modern dengan pendekatan mobile-first",
+          "Tombol aksi yang jelas dan navigasi sederhana",
+          "Mockup responsif dan prototipe interaktif"
+        ],
+        "link": "https://www.figma.com/proto/xUHOuNkIUuapcJChZzpkf7/Tugas-gwehh?node-id=155-232"
+      },
+      {
+        "title": "Desain Buku Anak-anak",
+        "type": "Ilustrasi & Desain Buku",
+        "duration": "Jun - Jul 2023",
+        "techStack": ["Illustrator", "InDesign", "Vector Graphics"],
+        "description": "Mendesain dan mengilustrasikan tiga buku untuk anak usia 4-7 tahun, menggabungkan konten edukatif dengan visual menarik.",
+        "keyFeatures": [
+          "Membuat 3 buku anak-anak yang menarik untuk usia 4-7 tahun dengan 25+ halaman terstruktur",
+          "Mendesain 3 sampul buku custom sesuai isi dan tema",
+          "Mengilustrasikan karakter dengan vektor untuk meningkatkan storytelling"
+        ],
+        "link": "http://figma.com/design/UTn9484nt4yrVSTbbaec4g/Project-Buku-Paud"
+      },
+      {
+        "title": "Manipulasi Gambar Menggunakan Photoshop",
+        "type": "Seni Digital & Editing Foto",
+        "duration": "2023",
+        "techStack": ["Photoshop"],
+        "description": "Membuat portofolio manipulasi gambar yang menunjukkan teknik komposit, koreksi warna, dan storytelling visual.",
+        "keyFeatures": [
+          "Teknik masking dan layer tingkat lanjut",
+          "Grading warna dan retouching",
+          "Komposit foto dari berbagai sumber"
+        ],
+        "link": "https://drive.google.com/drive/folders/1AQoRzrrsakXD1qdELmwlr7H7Td7Kc-Pz"
+      },
+      {
+        "title": "Desain Antarmuka Aplikasi 'STEPS'",
+        "type": "Desain UI/UX",
+        "duration": "Nov 2024 - Des 2024",
+        "techStack": ["Figma", "Wireframing", "Prototyping"],
+        "description": "Proyek akhir untuk mata kuliah Rekayasa Perangkat Lunak. Mendesain UI aplikasi mobile dengan fokus pada alur pengguna dan aksesibilitas.",
+        "keyFeatures": [
+          "Navigasi intuitif dan arsitektur informasi yang jelas",
+          "Prototipe interaktif dengan animasi"
+        ],
+        "link": "https://www.figma.com/proto/chsIcAxWz9EAjyC7JEkDTF/Project-RPL"
+      },
+      {
+        "title": "Pembuatan Video Profil BEM Universitas Cyber",
+        "type": "Produksi Video",
+        "duration": "Mar 2024",
+        "techStack": ["Premiere Pro", "After Effects"],
+        "description": "Membuat video profil yang menampilkan kegiatan, visi, dan misi BEM Universitas Cyber.",
+        "keyFeatures": [
+          "Penulisan naskah dan perencanaan adegan",
+          "Sinematografi dan pengeditan video",
+          "Menambahkan motion graphics dan subtitle"
         ],
         "link": "https://www.youtube.com/watch?v=jL-GFy2HLiU"
       }

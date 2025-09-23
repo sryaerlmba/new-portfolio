@@ -1,76 +1,138 @@
 {
-  "workExperience": [
-    {
-      "title": "Web Developer",
-      "type": "Internship",
-      "company": "Bank Rakyat Indonesia Research Institute",
-      "period": "March 2025 - Present",
-      "details": [
-        "Currently building a CMS using Laravel 12 and Inertia.js with Vue.js",
-        "Currently Revamped the bririns website UI using Codeigniter 4",
-        "Built a big data dashboard for PT BRI Life clients using Chart.js"
-      ],
-      "techStack": [
-        "Laravel",
-        "Vue.js",
-        "Inertia.js",
-        "Codeigniter",
-        "Chart.js",
-        "PHP",
-        "JavaScript"
-      ]
-    },
-    {
-      "title": "Graphic Designer",
-      "type": "Project",
-      "company": "Tim Himpaudi Kabupaten Ciamis",
-      "period": "June 2023 - July 2023",
-      "details": [
-        "Developed three engaging and visually appealing books tailored for children aged 4-7 years.",
-        "Designed three book covers and structured 25+ pages.",
-        "Illustrated and brought characters to life through the creation of vector graphics, enhancing the overall visual appeal and storytelling experience for the target audience."
-      ],
-      "techStack": ["Adobe Illustrator", "Adobe Photoshop"]
-    },
-    {
-      "title": "Graphic Designer",
-      "type": "Internship",
-      "company": "PT Proksi Media Digital Printing",
-      "period": "January 2021 - March 2021",
-      "details": [
-        "Created 15+ graphic designs, including banner designs, brochures, posters, logos",
-        "Managed 50+ printing projects, ensuring high-quality output",
-        "Successfully completed various projects and met deadlines"
-      ],
-      "techStack": ["Adobe Illustrator", "Adobe Photoshop"]
-    }
-  ],
-  "organizationExperience": [
-    {
-      "title": "Staff of the Media and Information Division",
-      "type": "Organization",
-      "organization": "Badan Eksekutif Mahasiswa",
-      "period": "September 2022 - January 2025",
-      "details": [
-        "Effectively communicated 50+ updates to BEM Cyber University stakeholders via both online and offline media channels.",
-        "Published comprehensive reports on BEM Cyber University studies, activity publications, and documentation.",
-        "Facilitated and strengthen BEM Cyber University's connections with external entities by actively managing social media platforms.",
-        "Designed visually appealing and cohesive Instagram feeds, maintaining a consistent and engaging online presence."
-      ],
-      "techStack": ["Figma", "Adobe Illustrator", "Adobe Photoshop", "Canva"]
-    },
-    {
-      "title": "Staff of the Media and Marketing Division",
-      "type": "Organization",
-      "organization": "Decompe 3.0",
-      "period": "June 2023 - December 2023",
-      "details": [
-        "Developed and implemented marketing strategies to increase brand awareness and engagement.",
-        "Designed 30+ visually compelling graphics for Instagram, increasing engagement.",
-        "Crafted captivating and informative content for Decompe 3.0's Instagram, driving user interaction and website traffic.",
-        "Conceptualized 10+ merchandise designs, boosting brand awareness and sales."
-      ],
-      "techStack": ["Figma"]
-    }
-  ]
+  "experience_en": {
+    "workExperience": [
+      {
+        "title": "Web Developer",
+        "type": "Internship",
+        "company": "Bank Rakyat Indonesia Research Institute",
+        "period": "March 2025 - Present",
+        "details": [
+          "Currently building a CMS using Laravel 12 and Inertia.js with Vue.js",
+          "Currently Revamped the bririns website UI using Codeigniter 4",
+          "Built a big data dashboard for PT BRI Life clients using Chart.js"
+        ],
+        "techStack": ["Laravel", "Vue.js", "Inertia.js", "Codeigniter", "Chart.js", "PHP", "JavaScript"]
+      },
+      {
+        "title": "Graphic Designer",
+        "type": "Project",
+        "company": "Tim Himpaudi Kabupaten Ciamis",
+        "period": "June 2023 - July 2023",
+        "details": [
+          "Developed three engaging and visually appealing books tailored for children aged 4-7 years.",
+          "Designed three book covers and structured 25+ pages.",
+          "Illustrated and brought characters to life through the creation of vector graphics."
+        ],
+        "techStack": ["Adobe Illustrator", "Adobe Photoshop"]
+      },
+      {
+        "title": "Graphic Designer",
+        "type": "Internship",
+        "company": "PT Proksi Media Digital Printing",
+        "period": "January 2021 - March 2021",
+        "details": [
+          "Created 15+ graphic designs, including banner designs, brochures, posters, logos",
+          "Managed 50+ printing projects, ensuring high-quality output",
+          "Successfully completed various projects and met deadlines"
+        ],
+        "techStack": ["Adobe Illustrator", "Adobe Photoshop"]
+      }
+    ],
+    "organizationExperience": [
+      {
+        "title": "Staff of the Media and Information Division",
+        "type": "Organization",
+        "organization": "Badan Eksekutif Mahasiswa",
+        "period": "September 2022 - January 2025",
+        "details": [
+          "Communicated 50+ updates to stakeholders via online and offline media.",
+          "Published comprehensive reports on BEM activities.",
+          "Managed social media to strengthen external relations.",
+          "Designed consistent and appealing Instagram feeds."
+        ],
+        "techStack": ["Figma", "Adobe Illustrator", "Adobe Photoshop", "Canva"]
+      },
+      {
+        "title": "Staff of the Media and Marketing Division",
+        "type": "Organization",
+        "organization": "Decompe 3.0",
+        "period": "June 2023 - December 2023",
+        "details": [
+          "Created marketing strategies to boost brand awareness.",
+          "Designed 30+ Instagram graphics.",
+          "Wrote engaging Instagram content.",
+          "Created 10+ merchandise designs."
+        ],
+        "techStack": ["Figma"]
+      }
+    ]
+  },
+  "experience_id": {
+    "workExperience": [
+      {
+        "title": "Pengembang Web",
+        "type": "Magang",
+        "company": "Bank Rakyat Indonesia Research Institute",
+        "period": "Maret 2025 - Sekarang",
+        "details": [
+          "Saat ini membangun CMS menggunakan Laravel 12 dan Inertia.js dengan Vue.js",
+          "Telah merombak ulang UI website bririns menggunakan Codeigniter 4",
+          "Membangun dashboard big data untuk klien PT BRI Life menggunakan Chart.js"
+        ],
+        "techStack": ["Laravel", "Vue.js", "Inertia.js", "Codeigniter", "Chart.js", "PHP", "JavaScript"]
+      },
+      {
+        "title": "Desainer Grafis",
+        "type": "Proyek",
+        "company": "Tim Himpaudi Kabupaten Ciamis",
+        "period": "Juni 2023 - Juli 2023",
+        "details": [
+          "Mengembangkan tiga buku edukatif dan menarik untuk anak usia 4-7 tahun.",
+          "Mendesain sampul dan menyusun lebih dari 25 halaman.",
+          "Mengilustrasikan karakter menggunakan vektor untuk memperkuat cerita dan visual."
+        ],
+        "techStack": ["Adobe Illustrator", "Adobe Photoshop"]
+      },
+      {
+        "title": "Desainer Grafis",
+        "type": "Magang",
+        "company": "PT Proksi Media Digital Printing",
+        "period": "Januari 2021 - Maret 2021",
+        "details": [
+          "Membuat lebih dari 15 desain grafis: banner, brosur, poster, logo, dll.",
+          "Mengelola 50+ proyek cetak dengan hasil berkualitas tinggi.",
+          "Menyelesaikan berbagai proyek tepat waktu dan sesuai permintaan."
+        ],
+        "techStack": ["Adobe Illustrator", "Adobe Photoshop"]
+      }
+    ],
+    "organizationExperience": [
+      {
+        "title": "Staf Divisi Media dan Informasi",
+        "type": "Organisasi",
+        "organization": "Badan Eksekutif Mahasiswa",
+        "period": "September 2022 - Januari 2025",
+        "details": [
+          "Menyampaikan lebih dari 50 informasi melalui media online dan offline.",
+          "Menerbitkan laporan kegiatan dan dokumentasi BEM.",
+          "Mengelola media sosial untuk memperkuat relasi eksternal.",
+          "Mendesain feed Instagram yang konsisten dan menarik."
+        ],
+        "techStack": ["Figma", "Adobe Illustrator", "Adobe Photoshop", "Canva"]
+      },
+      {
+        "title": "Staf Divisi Media dan Pemasaran",
+        "type": "Organisasi",
+        "organization": "Decompe 3.0",
+        "period": "Juni 2023 - Desember 2023",
+        "details": [
+          "Mengembangkan strategi pemasaran untuk meningkatkan brand awareness.",
+          "Membuat 30+ desain grafis Instagram yang menarik.",
+          "Menulis konten Instagram yang menarik dan informatif.",
+          "Mendesain lebih dari 10 merchandise untuk promosi."
+        ],
+        "techStack": ["Figma"]
+      }
+    ]
+  }
 }

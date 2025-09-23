@@ -2,7 +2,10 @@
 import Badge from '@/components/Badge.vue'
 import Button from '@/components/Button.vue'
 import ButtonHover from '@/components/ButtonHover.vue'
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, watch } from 'vue'
+import { useI18n } from 'vue-i18n'
+
+const { t, locale } = useI18n()
 
 const projects = ref([])
 const activeTab = ref('Technical')
@@ -14,15 +17,29 @@ const filterProject = () => {
   if (activeTab.value === 'All project') {
     return [...projects.value.technical, ...projects.value.design]
   }
-
+  
   const category = activeTab.value.toLowerCase()
   return projects.value[category] || []
 }
 
-onMounted(async () => {
+const fetchProject = async() => {
   const response = await fetch('data/project.json')
   const data = await response.json()
-  projects.value = data.projects
+
+  const langKey = `projects_${locale.value}`
+  projects.value = data[langKey]
+
+  console.log(`langKey ${langKey}` )
+  console.log(projects.value)
+}
+
+watch(locale, () => {
+  fetchProject()
+})
+
+onMounted(() => {
+  fetchProject()
+  filterProject()
 })
 </script>
 

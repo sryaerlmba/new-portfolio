@@ -1,3 +1,11 @@
+<script setup>
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
+
+</script>
+
+
 <template>
   <footer class="bg-gray-900 text-white py-12 px-5">
     <div
@@ -6,24 +14,23 @@
       <div class="flex flex-col items-center md:items-start">
         <h3 class="text-3xl font-extrabold text-blue-400 mb-2">Surya.</h3>
         <p class="text-sm text-gray-400 max-w-xs leading-relaxed">
-          An enthusiastic undergraduate student majoring in System and Information Technology with a
-          strong foundation in web development and design..
+          {{ t('footer.about') }}
         </p>
       </div>
 
       <div class="flex flex-col items-center">
         <h4 class="text-lg font-semibold mb-4 text-blue-300">Quick Links</h4>
         <nav class="flex flex-col gap-2 text-sm items-center">
-          <RouterLink :to="{ name: 'home' }" class="hover:text-blue-200 hover:underline transition duration-200">Home</RouterLink>
-          <RouterLink :to="{ name: 'experience' }" class="hover:text-blue-200 hover:underline transition duration-200">Experience</RouterLink>
-          <RouterLink :to="{ name: 'education' }" class="hover:text-blue-200 hover:underline transition duration-200">Education</RouterLink>
-          <RouterLink :to="{ name: 'projects' }" class="hover:text-blue-200 hover:underline transition duration-200">Projects</RouterLink>
-          <RouterLink :to="{ name: 'contact' }" class="hover:text-blue-200 hover:underline transition duration-200">Contact</RouterLink>
+          <RouterLink :to="{ name: 'home' }" class="hover:text-blue-200 hover:underline transition duration-200">{{ t('nav.home') }}</RouterLink>
+          <RouterLink :to="{ name: 'experience' }" class="hover:text-blue-200 hover:underline transition duration-200">{{ t('nav.experience') }}</RouterLink>
+          <RouterLink :to="{ name: 'education' }" class="hover:text-blue-200 hover:underline transition duration-200">{{ t('nav.education') }}</RouterLink>
+          <RouterLink :to="{ name: 'projects' }" class="hover:text-blue-200 hover:underline transition duration-200">{{ t('nav.projects') }}</RouterLink>
+          <RouterLink :to="{ name: 'contact' }" class="hover:text-blue-200 hover:underline transition duration-200">{{ t('nav.contact') }}</RouterLink>
         </nav>
       </div>
 
       <div class="flex flex-col items-center">
-        <h4 class="text-lg font-semibold mb-4 text-blue-300">Connect With Me</h4>
+        <h4 class="text-lg font-semibold mb-4 text-blue-300">{{ t('footer.connect') }}</h4>
         <div class="flex space-x-5 mb-4">
           <a
             href="https://www.linkedin.com/in/surya-erlamba-070123201/"

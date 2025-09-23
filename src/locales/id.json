@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "experience": "Pengalaman",
+    "education": "Pendidikan",
+    "projects": "Projek",
+    "contact": "Kontak",
+    "language": "Bahasa"
+  },
+  "footer": {
+    "about": "Mahasiswa yang semangat belajar di jurusan Sistem dan Teknologi Informasi, punya basic kuat di web development dan desain.",
+    "connect": "Terhubung Dengan Saya"
+  },
+  "hello": "halo!",
+  "welcome": "selamat datang!",
+  "portfolio": {
+    "title": "Jelajahi Portofolio Saya"
+  },
+  "button": {
+    "contact": "Hubungi Saya",
+    "github": "Lihat Github Saya",
+    "experience": {
+      "work_experience": "Pengalaman Kerja",
+      "organization_experience": "Pengalaman Organisasi",
+      "all_experience": "Lihat Semua Pengalaman"
+    },
+    "single_project": "Lihat Projek",
+    "projects": "Lihat Semua Projek"
+  },
+  "experience": "Pengalaman",
+  "description": "Selama perjalanan profesional, saya pernah menjalani berbagai peran seperti web developer, graphic designer, dan pengelola media sosial. Setiap pengalaman tersebut membantu membentuk kemampuan yang beragam dan meningkatkan adaptasi dalam berbagai proyek maupun lingkungan kerja.",
+  "additional": "Informasi Tambahan",
+  "additional_description": "Saya selalu antusias untuk mencoba tantangan baru dan memperluas pengalaman profesional. Jika tertarik untuk berkolaborasi atau ingin tahu lebih lanjut mengenai pengalaman saya, silakan hubungi kapan saja.",
+  "education": {
+    "title": "Pendidikan",
+    "undergraduate": "Sarjana",
+    "duration": "09/2022 - sekarang",
+    "major": "Sistem dan Teknologi Informasi",
+    "university": "Universitas Cyber, Jakarta Selatan, Indonesia",
+    "scholarship": "Penerima Beasiswa Cemerlang BRI Institute (IPK minimal: 3.00)",
+    "button": "Lihat Pendidikan",
+    "key_courses": {
+      "title": "Mata Kuliah Utama",
+      "it_title": "Mata Kuliah IT:",
+      "it_content": "Algoritma Pemrograman, Analisis Sistem Informasi, Teknologi Informasi dan Komunikasi, Matematika Diskrit, Keamanan Siber, Statistika (Python), Pemrograman Berorientasi Objek (Java), Basis Data (SQL), Pemasaran Digital, Bahasa Inggris, Privasi dan Perlindungan Data, Organisasi dan Arsitektur Komputer, Pemrograman Web (PHP), Teknologi Finansial, Metodologi Penelitian, Sistem Informasi Manajemen, Manajemen Risiko.",
+      "banking_title": "Mata Kuliah Perbankan:",
+      "banking_content": "Akuntansi, Keuangan Mikro, Matematika Bisnis, Dasar-dasar Perbankan."
+    },
+    "certifications": {
+      "title": "Sertifikasi & Kursus",
+      "button": "Lihat Sertifikasi"
+    },
+    "awards": {
+      "title": "Penghargaan",
+      "label": "SB IEEE UNM",
+      "description": "Membuat abstrak dengan tema \"Mendorong Transformasi Digital dan Kecerdasan Buatan untuk Masa Depan\"."
+    }
+  },
+  "projects": {
+    "college": "Projek Kuliah"
+  }
+}
