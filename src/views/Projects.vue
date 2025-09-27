@@ -17,19 +17,19 @@ const filterProject = () => {
   if (activeTab.value === 'All project') {
     return [...projects.value.technical, ...projects.value.design]
   }
-  
+
   const category = activeTab.value.toLowerCase()
   return projects.value[category] || []
 }
 
-const fetchProject = async() => {
+const fetchProject = async () => {
   const response = await fetch('data/project.json')
   const data = await response.json()
 
   const langKey = `projects_${locale.value}`
   projects.value = data[langKey]
 
-  console.log(`langKey ${langKey}` )
+  console.log(`langKey ${langKey}`)
   console.log(projects.value)
 }
 
@@ -47,11 +47,11 @@ onMounted(() => {
   <div class="md:px-18">
     <div class="my-30 mx-auto container min-h-screen px-5">
       <div>
-        <h1 class="font-bold text-4xl text-sky-800" data-aos="fade-right">Projects</h1>
+        <h1 class="font-bold text-4xl text-sky-800" data-aos="fade-right">
+          {{ t('projects.title') }}
+        </h1>
         <p class="mt-5 font-semibold" data-aos="fade-right">
-          Here are several projects I’ve built across different fields—ranging from web development
-          design, and more. Each project reflects my skills, creativity, and dedication to solving
-          real-world problems.
+          {{ t('projects.subtitle') }}
         </p>
       </div>
 
@@ -72,7 +72,7 @@ onMounted(() => {
           v-for="(item, index) in filterProject()"
           :key="index"
         >
-          <div class="md:w-1/4 w-full  bg-gray-200 p-5">
+          <div class="md:w-1/4 w-full bg-gray-200 p-5">
             <div class="flex">
               <p class="font-semibold text-2xl">{{ item.type }}</p>
             </div>

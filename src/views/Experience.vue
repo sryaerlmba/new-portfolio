@@ -17,21 +17,20 @@ const fetchExperience = async () => {
   // console.log(data)
   const work = data.workExperience
   const orga = data.organizationExperience.map((item) => ({
-   ...item,
+    ...item,
     company: item.organization,
   }))
 
-  dataExperience.value = [...work,...orga]
+  dataExperience.value = [...work, ...orga]
 }
 
 watch(locale, () => {
   fetchExperience()
 })
 
-onMounted( () => {
+onMounted(() => {
   fetchExperience()
 })
-
 </script>
 
 <template>
@@ -54,7 +53,11 @@ onMounted( () => {
         <p>
           {{ t('additional_description') }}
         </p>
-        <Button :text="t('button.contact')" class="justify-center mt-5 md:justify-start md:w-fit" page="contact"/>
+        <Button
+          :text="t('button.contact')"
+          class="justify-center mt-5 md:justify-start md:w-fit"
+          page="contact"
+        />
       </div>
     </div>
   </div>

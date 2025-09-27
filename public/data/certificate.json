@@ -1,18 +1,109 @@
 {
-  "professional": {
-    "period": "2022 - 2025",
-    "field": "Multimedia Services",
-    "institution": "Badan Nasional Sertifikasi Profesi",
-    "description": "Designing a Logo, Packaging, Video Bumper for my brand, and finally making an advertisement video that combines the logo, packaging, and bumper."
+  "certificate_id": {
+    "professional": {
+      "period": "2022 - 2025",
+      "field": "Layanan Multimedia",
+      "institution": "Badan Nasional Sertifikasi Profesi",
+      "description": "Merancang Logo, Kemasan, Video Bumper untuk brand saya, dan akhirnya membuat video iklan yang menggabungkan logo, kemasan, dan bumper."
+    },
+    "technical": {
+      "certificate": "Sertifikat SQL (Menengah)",
+      "issuer": "HackerRank",
+      "details": "Mencakup join kompleks, union, dan sub-query."
+    },
+    "courses": {
+      "udemy": {
+        "title": "Kursus Vue.js",
+        "platform": "Udemy",
+        "modules": [
+          "Fundamental Vue.js",
+          "Vue Router",
+          "Pinia",
+          "Studi Kasus Manajemen Kontak dengan Vue"
+        ]
+      },
+      "dicoding": [
+        {
+          "title": "Dasar Structured Query Language",
+          "modules": [
+            "Pengenalan Data dan Database",
+            "Sistem Manajemen Basis Data (DBMS)",
+            "Pengenalan Structured Query Language",
+            "Query Dasar"
+          ]
+        },
+        {
+          "title": "Belajar Machine Learning",
+          "modules": [
+            "Pengenalan Data",
+            "Supervised dan Unsupervised Learning",
+            "Support Vector Machine (SVM)",
+            "Dasar-dasar Machine Learning",
+            "Jaringan Saraf Tiruan",
+            "Tensorflow"
+          ]
+        },
+        {
+          "title": "Memulai Pemrograman dengan Python",
+          "modules": [
+            "Pengenalan Python",
+            "Interaksi dengan Data",
+            "Ekspresi",
+            "Control Flow",
+            "Array dan Pemrosesannya",
+            "Matriks",
+            "Subprogram",
+            "Pemrograman Berorientasi Objek (OOP)",
+            "Panduan Gaya Python",
+            "Unit Testing",
+            "Library Populer di Python"
+          ]
+        },
+        {
+          "title": "Belajar Dasar Visualisasi Data",
+          "modules": [
+            "Pengenalan",
+            "Pra-visualisasi",
+            "Persiapan Data",
+            "Transformasi Data ke Visual",
+            "Penutup"
+          ]
+        },
+        {
+          "title": "Belajar Dasar Pemrograman WEB",
+          "modules": [
+            "Pengenalan",
+            "Pengenalan HTML",
+            "Pendalaman HTML",
+            "Pengenalan CSS",
+            "Pendalaman CSS",
+            "Layout Responsif dengan Flexbox",
+            "Penutup"
+          ]
+        }
+      ]
+    },
+    "bootcamp": {
+      "program": "Mini-Bootcamp Desain UI/UX",
+      "organizer": "Decompe 2.0",
+      "modules": ["Fundamental UX", "Riset UX", "Desain UX", "Desain UI"]
+    }
   },
-  "technical": {
-    "certificate": "SQL (Intermediate) Certificate",
-    "issuer": "HackerRank",
-    "details": "It includes complex joins, unions, and sub-queries."
-  },
-  "courses": {
-    "udemy": 
-      {
+
+  "certificate_en": {
+    "professional": {
+      "period": "2022 - 2025",
+      "field": "Multimedia Services",
+      "institution": "National Agency for Professional Certification",
+      "description": "Designing a Logo, Packaging, Video Bumper for my brand, and finally making an advertisement video that combines the logo, packaging, and bumper."
+    },
+    "technical": {
+      "certificate": "SQL (Intermediate) Certificate",
+      "issuer": "HackerRank",
+      "details": "It includes complex joins, unions, and sub-queries."
+    },
+    "courses": {
+      "udemy": {
         "title": "Vue.js Course",
         "platform": "Udemy",
         "modules": [
@@ -21,72 +112,72 @@
           "Pinia",
           "Vue Contact Management Study Case"
         ]
-      }
-    ,
-    "dicoding": [
-      {
-        "title": "Basic Structured Query Language",
-        "modules": [
-          "Introduction to Data and Databases",
-          "Database Management System (DBMS)",
-          "Introduction to Structured Query Language",
-          "Basic Query"
-        ]
       },
-      {
-        "title": "Learn Machine Learning",
-        "modules": [
-          "Introduction to Data",
-          "Supervised Unsupervised Learning",
-          "Support Vector Machine (SVM)",
-          "The Basics of Machine Learning",
-          "Neural Network",
-          "Tensorflow"  
-        ]
-      },
-      {
-        "title": "Starting Programming with Python",
-        "modules": [
-          "Introduction to Python",
-          "Interact with Data",
-          "Expression",
-          "Control Flow",
-          "Array and Their Processing",
-          "Matrix",
-          "Subprogram",
-          "Object-Oriented Programming (OOP)",
-          "Style Guide in Python",
-          "Unit Testing",
-          "Popular Library in Python"
-        ]
-      },
-      {
-        "title": "Learn the Basic of Data Visualization",
-        "modules": [
-          "Introduction",
-          "Pre-visualization",
-          "Data Preparation",
-          "Data to Visual Transformation",
-          "Closing"
-        ]
-      },
-      {
-        "title": "Learn the Basic of WEB Programming",
-        "modules": [
-          "Introduction",
-          "Introduction to HTML",
-          "HTML Deepening",
-          "Introduction to CSS",
-          "CSS Deepening",
-          "Responsive Layout with Flexbox",
-          "Closing"
-        ]
-      }
-    ]
-  },
-  "bootcamp": {
-    "program": "UI/UX Design Mini-Bootcamp",
-    "organizer": "Decompe 2.0",
-    "modules": ["UX Fundamental", "UX Research", "UX Design", "UI Design"]
+      "dicoding": [
+        {
+          "title": "Basic Structured Query Language",
+          "modules": [
+            "Introduction to Data and Databases",
+            "Database Management System (DBMS)",
+            "Introduction to Structured Query Language",
+            "Basic Query"
+          ]
+        },
+        {
+          "title": "Learn Machine Learning",
+          "modules": [
+            "Introduction to Data",
+            "Supervised Unsupervised Learning",
+            "Support Vector Machine (SVM)",
+            "The Basics of Machine Learning",
+            "Neural Network",
+            "Tensorflow"
+          ]
+        },
+        {
+          "title": "Starting Programming with Python",
+          "modules": [
+            "Introduction to Python",
+            "Interact with Data",
+            "Expression",
+            "Control Flow",
+            "Array and Their Processing",
+            "Matrix",
+            "Subprogram",
+            "Object-Oriented Programming (OOP)",
+            "Style Guide in Python",
+            "Unit Testing",
+            "Popular Library in Python"
+          ]
+        },
+        {
+          "title": "Learn the Basic of Data Visualization",
+          "modules": [
+            "Introduction",
+            "Pre-visualization",
+            "Data Preparation",
+            "Data to Visual Transformation",
+            "Closing"
+          ]
+        },
+        {
+          "title": "Learn the Basic of WEB Programming",
+          "modules": [
+            "Introduction",
+            "Introduction to HTML",
+            "HTML Deepening",
+            "Introduction to CSS",
+            "CSS Deepening",
+            "Responsive Layout with Flexbox",
+            "Closing"
+          ]
+        }
+      ]
+    },
+    "bootcamp": {
+      "program": "UI/UX Design Mini-Bootcamp",
+      "organizer": "Decompe 2.0",
+      "modules": ["UX Fundamental", "UX Research", "UX Design", "UI Design"]
+    }
   }
 }

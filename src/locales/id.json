@@ -57,6 +57,62 @@
     }
   },
   "projects": {
-    "college": "Projek Kuliah"
+    "college": "Projek Kuliah",
+    "title": "Proyek",
+    "subtitle": "Berikut adalah beberapa proyek yang telah saya bangun di berbagai bidang—mulai dari pengembangan web, desain, dan lainnya. Setiap proyek mencerminkan keterampilan, kreativitas, dan dedikasi saya dalam menyelesaikan masalah nyata."
+  },
+  "educationPage": {
+    "title": "Pendidikan, Sertifikasi, dan Kursus",
+    "subtitle": "Perjalanan akademik dan pengembangan profesional saya melalui berbagai program pendidikan, sertifikasi, dan kursus yang telah membentuk keterampilan dan pengetahuan saya.",
+
+    "formalEducation": "Pendidikan Formal",
+    "undergraduate": "Sarjana",
+    "undergraduatePeriod": "09/2022 - sekarang",
+    "major": "Sistem dan Teknologi Informasi",
+    "university": "Universitas Siber Indonesia, Jakarta Selatan, Indonesia",
+    "gpa": "IPK: 3.84/4.00",
+
+    "achievements": {
+      "scholarship": "Penerima Beasiswa BRI Institute Cemerlang (Minimal IPK: 3.00)",
+      "bankingCourses": "Mata Kuliah Perbankan: Akuntansi, Mikrofinansial, Matematika Bisnis, Perbankan Dasar",
+      "techCourses": "Mata Kuliah Sistem dan Teknologi Informasi: Algoritma Pemrograman, Analisis Sistem Informasi, Teknologi Informasi dan Komunikasi, Matematika Diskrit, Keamanan Siber, Statistika (Python), Pemrograman Berorientasi Objek (Java), Basis Data (SQL), Pemasaran Digital, Bahasa Inggris, Privasi dan Perlindungan Data, Organisasi dan Arsitektur Komputer, Pemrograman Web (PHP), Financial Technology, Metodologi Penelitian, Sistem Informasi Manajemen, Manajemen Risiko"
+    },
+
+    "certification": "Sertifikasi"
+  },
+  "contact": {
+    "title": "Hubungi Saya",
+    "subtitle": "Punya proyek atau ingin berdiskusi? Saya akan senang mendengar kabar dari Anda! Silakan hubungi melalui form kontak atau informasi di bawah ini.",
+    "form": {
+      "name": "Nama",
+      "email": "Email",
+      "subject": "Subjek",
+      "message": "Pesan",
+      "placeholder": {
+        "name": "Nama Anda",
+        "email": "Email Anda",
+        "subject": "Subjek",
+        "message": "Pesan Anda"
+      },
+      "errors": {
+        "name": "Nama wajib diisi",
+        "email_required": "Email wajib diisi",
+        "email_invalid": "Format email tidak valid",
+        "subject": "Subjek wajib diisi",
+        "message": "Pesan minimal 10 karakter"
+      },
+      "button": "Kirim Pesan"
+    },
+    "info": {
+      "title": "Informasi Kontak",
+      "location": "Jakarta, Indonesia",
+      "connect": "Terhubung dengan saya"
+    },
+    "alerts": {
+      "success_title": "Berhasil!",
+      "success_text": "Pesan Anda telah terkirim.",
+      "error_title": "Gagal!",
+      "error_text": "Terjadi kesalahan saat mengirim pesan."
+    }
   }
 }

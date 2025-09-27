@@ -28,9 +28,9 @@
     "single_project": "View Project"
   },
   "experience": "Experience",
-  "description" : "My professional journey includes roles in web development, graphic design, and media management. Each position has helped me develop a diverse skill set and adaptability across different projects and environments.",
-  "additional" : "Additional Information",
-  "additional_description" : "I'm always eager to take on new challenges and expand my professional experience. If you'd like to discuss potential collaboration or have any questions about my work experience, please don't hesitate to reach out. Contact Me.",
+  "description": "My professional journey includes roles in web development, graphic design, and media management. Each position has helped me develop a diverse skill set and adaptability across different projects and environments.",
+  "additional": "Additional Information",
+  "additional_description": "I'm always eager to take on new challenges and expand my professional experience. If you'd like to discuss potential collaboration or have any questions about my work experience, please don't hesitate to reach out. Contact Me.",
   "education": {
     "title": "Education",
     "undergraduate": "Undergraduate",
@@ -57,6 +57,62 @@
     }
   },
   "projects": {
-    "college": "College Projects"
+    "college": "College Projects",
+    "title": "Projects",
+    "subtitle": "Here are several projects I’ve built across different fields—ranging from web development, design, and more. Each project reflects my skills, creativity, and dedication to solving real-world problems."
+  },
+  "educationPage": {
+    "title": "Education, Certification and Course",
+    "subtitle": "My academic journey and professional development through various educational programs, certifications, and courses that have shaped my skills and knowledge.",
+
+    "formalEducation": "Formal Education",
+    "undergraduate": "Undergraduate",
+    "undergraduatePeriod": "09/2022 - present",
+    "major": "System and Information Technology",
+    "university": "Universitas Siber Indonesia, South Jakarta, Indonesia",
+    "gpa": "GPA: 3.84/4.00",
+
+    "achievements": {
+      "scholarship": "Recipient of the BRI Institute Cemerlang Scholarship (Minimum GPA: 3.00)",
+      "bankingCourses": "Banking Courses: Accounting, Microfinance, Business Mathematics, Basic Banking",
+      "techCourses": "Information Systems and Technology Courses: Programming Algorithms, Information Systems Analysis, Information and Communication Technology, Discrete Mathematics, Cyber Security, Statistics (Python), Object Oriented Programming (Java), Databases (SQL), Digital Marketing, English, Privacy and Data Protection, Organization and Computer Architecture, Web Programming (PHP), Financial Technology, Research Methodology, Management Information System, Risk Management"
+    },
+
+    "certification": "Certification"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind or want to discuss potential opportunities? I'd love to hear from you! Feel free to reach out using the contact form or through my contact information below.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "placeholder": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "subject": "Subject",
+        "message": "Your Message"
+      },
+      "errors": {
+        "name": "Name is required",
+        "email_required": "Email is required",
+        "email_invalid": "Invalid email format",
+        "subject": "Subject is required",
+        "message": "Message must be at least 10 characters"
+      },
+      "button": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "location": "Jakarta, Indonesia",
+      "connect": "Connect with me"
+    },
+    "alerts": {
+      "success_title": "Success!",
+      "success_text": "Your message has been sent.",
+      "error_title": "Error!",
+      "error_text": "An error occurred while sending your message."
+    }
   }
 }
