@@ -7,11 +7,23 @@
         "company": "Bank Rakyat Indonesia Research Institute",
         "period": "March 2025 - Present",
         "details": [
-          "Currently building a CMS using Laravel 12 and Inertia.js with Vue.js",
-          "Currently Revamped the bririns website UI using Codeigniter 4",
-          "Built a big data dashboard for PT BRI Life clients using Chart.js"
+          "Developing Perempuan Cerdas Digital Website (Vue.js, Go lang) perempuancerdasdigital.id.",
+          "Developing PPBRI and CMS PPBRI website (Kohana, CI3) ppbri.or.id.",
+          "Managing server and implementing automation process (Python).",
+          "Building a Content Management System using Laravel 12 and the landing page website for PT Prima Yasa Travela (Privela), a subsidiary of BRI Group (Laravel, Inertia, Vue.js) privela.id.",
+          "Revamping the bririns website UI using Codeigniter 4.",
+          "Creating a big data dashboard for PT BRI Life clients (Chart.js, CI4)."
         ],
-        "techStack": ["Laravel", "Vue.js", "Inertia.js", "Codeigniter", "Chart.js", "PHP", "JavaScript"]
+        "techStack": [
+          "Laravel",
+          "Vue.js",
+          "Inertia.js",
+          "Codeigniter",
+          "Chart.js",
+          "PHP",
+          "JavaScript",
+          "Next js"
+        ]
       },
       {
         "title": "Graphic Designer",
@@ -75,11 +87,23 @@
         "company": "Bank Rakyat Indonesia Research Institute",
         "period": "Maret 2025 - Sekarang",
         "details": [
-          "Saat ini membangun CMS menggunakan Laravel 12 dan Inertia.js dengan Vue.js",
-          "Telah merombak ulang UI website bririns menggunakan Codeigniter 4",
-          "Membangun dashboard big data untuk klien PT BRI Life menggunakan Chart.js"
+          "Mengembangkan situs web Perempuan Cerdas Digital (Vue.js, Go lang) di perempuancerdasdigital.id.",
+          "Mengembangkan situs web PPBRI dan CMS PPBRI (Kohana, CodeIgniter 3) di ppbri.or.id.",
+          "Mengelola server dan menerapkan proses otomatisasi (Python).",
+          "Membangun sistem manajemen konten (CMS) menggunakan Laravel 12 serta situs landing page untuk PT Prima Yasa Travela (Privela), anak perusahaan dari BRI Group (Laravel, Inertia, Vue.js) di privela.id.",
+          "Menyegarkan ulang tampilan antarmuka situs web bririns menggunakan CodeIgniter 4.",
+          "Membuat dashboard big data untuk klien PT BRI Life (Chart.js, CodeIgniter 4)."
         ],
-        "techStack": ["Laravel", "Vue.js", "Inertia.js", "Codeigniter", "Chart.js", "PHP", "JavaScript"]
+        "techStack": [
+          "Laravel",
+          "Vue.js",
+          "Inertia.js",
+          "Codeigniter",
+          "Chart.js",
+          "PHP",
+          "JavaScript",
+          "Next js"
+        ]
       },
       {
         "title": "Desainer Grafis",
